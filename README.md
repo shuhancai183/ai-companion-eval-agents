@@ -7,6 +7,10 @@ This repository contains my submission work for an automated evaluation task on 
 
 ## Repository Layout
 
+### Q1 results
+- `outputs/evaluated_apps_submission.csv`
+  - final cleaned Q1 submission-style result file
+
 ### Core Q1 files
 
 - `build_input_apps_csv.py`
@@ -17,8 +21,6 @@ This repository contains my submission work for an automated evaluation task on 
   - post-processing / cleanup for Q1 outputs
 - `merge_human_verify.py`
   - merges manually reviewed unresolved cases
-- `outputs/evaluated_apps_submission.csv`
-  - final cleaned Q1 submission-style result file
 - `outputs/unresolved_urls.csv`
   - unresolved cases retained after review
 
