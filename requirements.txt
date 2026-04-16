@@ -1,0 +1,4 @@
+requests
+playwright
+pydantic
+langchain-openai

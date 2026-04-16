@@ -1,0 +1,9 @@
+title|app_type|web_accessible|web_url|login_required|login_methods|age_verification_required|age_verification_method|subscription_required_for_long_chat|all_features_available_without_subscription|subscription_features|subscription_cost|languages_supported|
+Character AI: Chat, Talk, Text|companion|True|https://character.ai/|True|email,google,apple|True|self-declaration|False|False|Better memory,Ad-free chats,Bonus on every Charms pack,Access our latest and best models,No slow mode,Unlimited voice calls,Even more muted words, voice memos, go-ons & swipes,Customize your chats,Unlock new features first & get access to the c.ai+ community|$9.99|en,zh|
+Dokichat – Romantic AI Chat|companion|True|https://dokichat.club|True|email,google,apple|False|Flase|False|True|||en,zh|
+Grok - AI Chat & Video|general_purpose|True|https://x.ai/|True|email,google,apple,x account|False|False|True|False|5x longer conversations in Chat,4x AI agents on Expert mode,Collaborating to get you the best answers,20x more AI images & videos,With HD 720p, 30-second video,Upload more files for smarter help,Lightning-fast replie|$30|all|
+Merlin AI: AI Chat Assistant|general_purpose|https://www.getmerlin.in|True|email,google,apple|False|False|False|False|other model||Dozens of languages, including Chinese, English, Japanese, Korean, French, German, Spanish, Russian, Arabic, and others.
+RolePlai - Ai Character Chat|companion|False|
+AI Dungeon: RPG & Story Maker|other|True|https://www.aidungeon.io/|False|False|False|False|False|False|False
+Moescape - Character AI & Art|companion|True|https://moescape.ai|True|email,google,Phone|
+Sider: AI GPT Deep Chat|other|True|https://sider.ai/|True|email,google,Phone|
