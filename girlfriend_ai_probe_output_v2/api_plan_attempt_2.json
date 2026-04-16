@@ -1,0 +1,44 @@
+{
+  "site_name": "Girlfriend AI",
+  "base_url": "https://girlfriend.ai",
+  "chat_url": "https://girlfriend.ai/chat/:slug",
+  "transport": "websocket+http_json",
+  "create_guest_url": "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCJEe4WZGBYy_kSZb7QAtnj9vxY-nAVCuE",
+  "login_by_guest_url": "https://girlfriend.ai/v2/api/auth/session",
+  "get_account_url": "https://girlfriend.ai/api-gateway/api/v2/profile",
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": "https://prod.girlfriend.ai/api-gateway/api/v2/chats",
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": "wss://prod.girlfriend.ai/ws?token={FIREBASE_ID_TOKEN}",
+  "graphql_url": null,
+  "bot_id": "alina-zinchenko",
+  "required_headers": {
+    "accept": "application/json",
+    "content-type": "application/json",
+    "authorization": "Bearer {FIREBASE_ID_TOKEN}",
+    "referer": "https://girlfriend.ai/"
+  },
+  "payload_hints": {
+    "create_guest_url": {
+      "returnSecureToken": true
+    },
+    "get_account_url": {
+      "value": "GET, requires Authorization Bearer Firebase idToken; response includes is_guest, subscription, balance, preferences"
+    },
+    "get_sessions_url": {
+      "value": "GET /api-gateway/api/v2/chats, requires Authorization Bearer Firebase idToken"
+    },
+    "login_by_guest_url": {
+      "value": "POST /v2/api/auth/session was called with empty JSON body in capture; likely sets server session/cookies tied to Firebase auth"
+    }
+  },
+  "conversation_history_format": null,
+  "token_location": "Firebase Identity Toolkit idToken; used as Authorization: Bearer on https://prod.girlfriend.ai/api-gateway/api/v2/* and as ws query param token on wss://prod.girlfriend.ai/ws",
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "medium",
+  "notes": "['Concrete evidence shows Firebase anonymous signup (accounts:signUp) returning idToken/refreshToken/localId, then POST https://girlfriend.ai/v2/api/auth/session (200) and subsequent authorized API calls to https://prod.girlfriend.ai/api-gateway/api/v2/profile, /chats, /billing/* with Authorization: Bearer <idToken>.', 'WebSocket connection observed: wss://prod.girlfriend.ai/ws?token=<idToken>. No frames captured, so message send/stream endpoints and WS frame protocol cannot be inferred.', 'Remix/React-Router data fetch observed: GET https://girlfriend.ai/chat.data?_routes=routes%2Fchat%2Fchat returning redirect payload; not part of chat messaging API.']"
+}

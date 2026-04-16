@@ -1,0 +1,47 @@
+{
+  "target_url": "https://chat.charclub.ai",
+  "network_capture_file": "E:\\nyu homework\\ra\\charclub_probe_output_v2\\network_capture.json",
+  "plan_attempt_1_file": "E:\\nyu homework\\ra\\charclub_probe_output_v2\\api_plan_attempt_1.json",
+  "verification_attempt_1_file": "E:\\nyu homework\\ra\\charclub_probe_output_v2\\verification_attempt_1.json",
+  "final_status": "failed_after_two_attempts",
+  "success_criteria": "Success requires at least one observed calling plan with enough concrete evidence to replay a send step and obtain a parseable reply.",
+  "plan_attempt_2_file": "E:\\nyu homework\\ra\\charclub_probe_output_v2\\api_plan_attempt_2.json",
+  "verification_attempt_2_file": "E:\\nyu homework\\ra\\charclub_probe_output_v2\\verification_attempt_2.json",
+  "winning_plan": {
+    "site_name": "CharClub AI",
+    "base_url": "https://chat.charclub.ai",
+    "chat_url": "https://chat.charclub.ai",
+    "transport": "http",
+    "create_guest_url": null,
+    "login_by_guest_url": null,
+    "get_account_url": null,
+    "create_session_url": null,
+    "get_chat_setting_url": null,
+    "get_sessions_url": null,
+    "get_chat_messages_url": null,
+    "send_url": null,
+    "stream_url": null,
+    "websocket_url": "wss://charclub.ahihoapis.com",
+    "graphql_url": null,
+    "bot_id": null,
+    "required_headers": {
+      "accept": "application/json, text/plain, */*",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+      "referer": "https://chat.charclub.ai/"
+    },
+    "payload_hints": {},
+    "conversation_history_format": null,
+    "token_location": null,
+    "session_id_location": null,
+    "verification_strategy": "capture_only",
+    "confidence": "medium",
+    "notes": "The site uses HTTP GET endpoints for character pages and API endpoints for character data and searches. The main API config endpoint https://chat.charclub.ai/api/config/ returns a websocket URL (wss://charclub.ahihoapis.com) indicating websocket transport is used for chat or real-time communication. No explicit send or stream HTTP endpoints were observed. Authentication tokens appear to be managed via Firebase and Google services. The app likely uses websocket for chat message transport, but no websocket traffic was captured. Verification strategy is set to capture_only due to lack of direct chat message API evidence."
+  },
+  "winning_verification": {
+    "ok": false,
+    "steps": [],
+    "errors": [
+      "Plan is incomplete for HTTP replay: send_url or stream_url is missing."
+    ]
+  }
+}

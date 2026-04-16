@@ -1,0 +1,34 @@
+[
+  {
+    "chatSessionId": 4394304,
+    "content": "*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\n\nOh... Hey Guest, welcome back home.\nDid you have a bad day or why do you look so run down? Hmm?\n*She teases.*\n",
+    "createTime": "2026-04-16 15:47:06",
+    "generateId": null,
+    "generateStatus": null,
+    "generateType": null,
+    "id": 142622809,
+    "isRead": false,
+    "receiveUserId": 3239071,
+    "receiveUserType": 0,
+    "sendUserId": 148463,
+    "sendUserType": 1,
+    "type": 0,
+    "updateTime": "2026-04-16 15:47:06"
+  },
+  {
+    "chatSessionId": 4394304,
+    "content": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930425&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dxmuD4QhV43mwRIQ3beypk5iAM4%3D",
+    "createTime": "2026-04-16 15:47:07",
+    "generateId": null,
+    "generateStatus": null,
+    "generateType": null,
+    "id": 142622810,
+    "isRead": false,
+    "receiveUserId": 3239071,
+    "receiveUserType": 0,
+    "sendUserId": 148463,
+    "sendUserType": 1,
+    "type": 2,
+    "updateTime": "2026-04-16 15:47:06"
+  }
+]

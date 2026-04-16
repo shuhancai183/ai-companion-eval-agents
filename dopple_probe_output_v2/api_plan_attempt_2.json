@@ -1,0 +1,64 @@
+{
+  "site_name": "Dopple.ai (beta)",
+  "base_url": "https://beta.dopple.ai",
+  "chat_url": "https://beta.dopple.ai/messages",
+  "transport": "http_json",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": "https://brain.dopple.ai/get_user_details?username={username}",
+  "create_session_url": "https://dopple-be-232946234386.us-central1.run.app/api/engagements",
+  "get_chat_setting_url": "https://brain.dopple.ai/get_user_details?username={username}",
+  "get_sessions_url": "https://brain.dopple.ai/get_user_chats",
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": null,
+  "graphql_url": null,
+  "bot_id": null,
+  "required_headers": {
+    "accept": "application/json",
+    "content-type": "application/json",
+    "referer": "https://beta.dopple.ai/",
+    "authorization": "Bearer {token_or_empty}"
+  },
+  "payload_hints": {
+    "create_session_url": {
+      "method": "POST",
+      "json": {
+        "page": "/",
+        "device": "desktop"
+      },
+      "response_contains": [
+        "sessionId"
+      ]
+    },
+    "get_sessions_url": {
+      "method": "POST",
+      "json": {
+        "username": "{username}"
+      },
+      "response_contains": [
+        "active_chats",
+        "saved_chats",
+        "relations"
+      ]
+    },
+    "get_account_url": {
+      "method": "GET",
+      "query_params": [
+        "username"
+      ],
+      "response_contains": [
+        "message_limit",
+        "remaining_message_credits",
+        "user_dopple_plus_info"
+      ]
+    }
+  },
+  "conversation_history_format": null,
+  "token_location": "Authorization: Bearer {token}; captures show empty/undefined tokens causing 401",
+  "session_id_location": "create_session_url response field sessionId",
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "No chat send/stream endpoint observed in capture. Only observed: brain.dopple.ai user details + user chats, and dopple-be engagements. Attempt to GET /api/users/undefined with 'Bearer undefined' returned 401, indicating auth token is required but not captured. No websocket traffic observed."
+}

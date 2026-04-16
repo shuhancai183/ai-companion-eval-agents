@@ -1,0 +1,46 @@
+{
+  "site_name": "LiveC AI",
+  "base_url": "https://livec.ai",
+  "chat_url": "https://livec.ai/",
+  "transport": "unknown (only Next.js RSC page fetches observed; no chat API/websocket traffic captured)",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": null,
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": null,
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": null,
+  "graphql_url": null,
+  "bot_id": null,
+  "required_headers": {
+    "referer": "https://livec.ai/",
+    "user-agent": "Captured browser UA",
+    "content-type": "application/json (not observed for LiveC endpoints; only analytics used form-urlencoded)"
+  },
+  "payload_hints": {
+    "observed_nextjs_rsc_param": {
+      "value": "_rsc=tujbn"
+    },
+    "observed_pages_fetched": {
+      "GET https://livec.ai/features?_rsc=tujbn": null,
+      "GET https://livec.ai/general?_rsc=tujbn": null,
+      "GET https://livec.ai/privacy?_rsc=tujbn": null,
+      "GET https://livec.ai/support?_rsc=tujbn": null,
+      "GET https://livec.ai/technical?_rsc=tujbn": null,
+      "GET https://livec.ai/terms?_rsc=tujbn": null
+    },
+    "observed_analytics": {
+      "POST https://us.i.posthog.com/flags/?v=2&config=true&ip=0&... (x-www-form-urlencoded data=base64json)": null,
+      "POST https://www.google-analytics.com/g/collect?... (no JSON)": null
+    }
+  },
+  "conversation_history_format": null,
+  "token_location": null,
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "No concrete evidence of chat/message endpoints in the capture. Only Next.js RSC navigation fetches and third-party analytics (PostHog/GA) were observed. Since send_message_failed occurred without corresponding network calls captured, the app may use endpoints not reached due to failure, blocked requests, or a different transport; additional captures on the actual chat page/action are needed (including XHR/fetch to any /api/*, and any websocket connections)."
+}

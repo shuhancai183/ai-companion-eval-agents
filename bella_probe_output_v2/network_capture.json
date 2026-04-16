@@ -1,0 +1,204 @@
+{
+  "target_url": "https://www.bellaaichat.com",
+  "current_url": "https://www.bellaaichat.com/#features",
+  "page_title": "Bella-Anime AI Friend",
+  "errors": [],
+  "actions": [
+    {
+      "action": "click_hint",
+      "hint": "start",
+      "frame_url": "https://www.bellaaichat.com/#features"
+    },
+    {
+      "action": "send_message_failed"
+    }
+  ],
+  "http_captures": [
+    {
+      "request_id": "https://www.bellaaichat.com/cdn-cgi/rum?::POST::0",
+      "url": "https://www.bellaaichat.com/cdn-cgi/rum?",
+      "path": "/cdn-cgi/rum",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "referer": "https://www.bellaaichat.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"memory\":{\"totalJSHeapSize\":10000000,\"usedJSHeapSize\":10000000,\"jsHeapSizeLimit\":3760000000},\"resources\":[],\"referrer\":\"\",\"eventType\":1,\"firstPaint\":344,\"firstContentfulPaint\":344,\"startTime\":1776327863090.9,\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.2.0\",\"timings\":2},\"pageloadId\":\"1877378b-b808-4ac5-b768-d509204ddf15\",\"location\":\"https://www.bellaaichat.com/\",\"nt\":\"navigate\",\"timingsV2\":{\"nextHopProtocol\":\"h2\",\"domainLookupStart\":12.399999991059303,\"domainLookupEnd\":44.3999999910593,\"connectStart\":44.3999999910593,\"connectEnd\":76.79999999701977,\"requestStart\":77.20000000298023,\"responseStart\":261.20000000298023,\"responseEnd\":262.59999999403954,\"domInteractive\":321.8999999910593,\"domComplete\":912.3999999910593,\"loadEventStart\":912.3999999910593,\"loadEventEnd\":912.5999999940395,\"finalResponseHeadersStart\":261.20000000298023,\"firstInterimResponseStart\":0,\"transferSize\":3576,\"decodedBodySize\":8560},\"dt\":\"\",\"siteToken\":\"87e1650585aa4fd78f205c25a4a2d1ca\",\"st\":2}",
+      "request_json": {
+        "memory": {
+          "totalJSHeapSize": 10000000,
+          "usedJSHeapSize": 10000000,
+          "jsHeapSizeLimit": 3760000000
+        },
+        "resources": [],
+        "referrer": "",
+        "eventType": 1,
+        "firstPaint": 344,
+        "firstContentfulPaint": 344,
+        "startTime": 1776327863090.9,
+        "versions": {
+          "fl": "2024.11.0",
+          "js": "2026.2.0",
+          "timings": 2
+        },
+        "pageloadId": "1877378b-b808-4ac5-b768-d509204ddf15",
+        "location": "https://www.bellaaichat.com/",
+        "nt": "navigate",
+        "timingsV2": {
+          "nextHopProtocol": "h2",
+          "domainLookupStart": 12.399999991059303,
+          "domainLookupEnd": 44.3999999910593,
+          "connectStart": 44.3999999910593,
+          "connectEnd": 76.79999999701977,
+          "requestStart": 77.20000000298023,
+          "responseStart": 261.20000000298023,
+          "responseEnd": 262.59999999403954,
+          "domInteractive": 321.8999999910593,
+          "domComplete": 912.3999999910593,
+          "loadEventStart": 912.3999999910593,
+          "loadEventEnd": 912.5999999940395,
+          "finalResponseHeadersStart": 261.20000000298023,
+          "firstInterimResponseStart": 0,
+          "transferSize": 3576,
+          "decodedBodySize": 8560
+        },
+        "dt": "",
+        "siteToken": "87e1650585aa4fd78f205c25a4a2d1ca",
+        "st": 2
+      },
+      "status": 204,
+      "response_headers": {
+        "content-type": "text/plain"
+      },
+      "response_body": "",
+      "response_json": null
+    },
+    {
+      "request_id": "https://www.bellaaichat.com/cdn-cgi/rum?::POST::1",
+      "url": "https://www.bellaaichat.com/cdn-cgi/rum?",
+      "path": "/cdn-cgi/rum",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "referer": "https://www.bellaaichat.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"memory\":{\"totalJSHeapSize\":10000000,\"usedJSHeapSize\":10000000,\"jsHeapSizeLimit\":3760000000},\"resources\":[],\"referrer\":\"\",\"eventType\":1,\"firstPaint\":344,\"firstContentfulPaint\":344,\"startTime\":1776327863090.9,\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.2.0\",\"timings\":2},\"pageloadId\":\"1877378b-b808-4ac5-b768-d509204ddf15\",\"location\":\"https://www.bellaaichat.com/\",\"nt\":\"navigate\",\"timingsV2\":{\"nextHopProtocol\":\"h2\",\"domainLookupStart\":12.399999991059303,\"domainLookupEnd\":44.3999999910593,\"connectStart\":44.3999999910593,\"connectEnd\":76.79999999701977,\"requestStart\":77.20000000298023,\"responseStart\":261.20000000298023,\"responseEnd\":262.59999999403954,\"domInteractive\":321.8999999910593,\"domComplete\":912.3999999910593,\"loadEventStart\":912.3999999910593,\"loadEventEnd\":912.5999999940395,\"finalResponseHeadersStart\":261.20000000298023,\"firstInterimResponseStart\":0,\"transferSize\":3576,\"decodedBodySize\":8560},\"dt\":\"\",\"siteToken\":\"87e1650585aa4fd78f205c25a4a2d1ca\",\"st\":2}",
+      "request_json": {
+        "memory": {
+          "totalJSHeapSize": 10000000,
+          "usedJSHeapSize": 10000000,
+          "jsHeapSizeLimit": 3760000000
+        },
+        "resources": [],
+        "referrer": "",
+        "eventType": 1,
+        "firstPaint": 344,
+        "firstContentfulPaint": 344,
+        "startTime": 1776327863090.9,
+        "versions": {
+          "fl": "2024.11.0",
+          "js": "2026.2.0",
+          "timings": 2
+        },
+        "pageloadId": "1877378b-b808-4ac5-b768-d509204ddf15",
+        "location": "https://www.bellaaichat.com/",
+        "nt": "navigate",
+        "timingsV2": {
+          "nextHopProtocol": "h2",
+          "domainLookupStart": 12.399999991059303,
+          "domainLookupEnd": 44.3999999910593,
+          "connectStart": 44.3999999910593,
+          "connectEnd": 76.79999999701977,
+          "requestStart": 77.20000000298023,
+          "responseStart": 261.20000000298023,
+          "responseEnd": 262.59999999403954,
+          "domInteractive": 321.8999999910593,
+          "domComplete": 912.3999999910593,
+          "loadEventStart": 912.3999999910593,
+          "loadEventEnd": 912.5999999940395,
+          "finalResponseHeadersStart": 261.20000000298023,
+          "firstInterimResponseStart": 0,
+          "transferSize": 3576,
+          "decodedBodySize": 8560
+        },
+        "dt": "",
+        "siteToken": "87e1650585aa4fd78f205c25a4a2d1ca",
+        "st": 2
+      },
+      "status": 204,
+      "response_headers": {
+        "content-type": "text/plain"
+      },
+      "response_body": "",
+      "response_json": null
+    }
+  ],
+  "websocket_captures": [],
+  "summary": {
+    "http_endpoints": [
+      {
+        "path": "/cdn-cgi/rum",
+        "count": 2,
+        "method": "POST",
+        "sample_url": "https://www.bellaaichat.com/cdn-cgi/rum?",
+        "resource_type": "xhr",
+        "sample_request_headers": {
+          "referer": "https://www.bellaaichat.com/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "content-type": "application/json"
+        },
+        "sample_request_json": {
+          "memory": {
+            "totalJSHeapSize": 10000000,
+            "usedJSHeapSize": 10000000,
+            "jsHeapSizeLimit": 3760000000
+          },
+          "resources": [],
+          "referrer": "",
+          "eventType": 1,
+          "firstPaint": 344,
+          "firstContentfulPaint": 344,
+          "startTime": 1776327863090.9,
+          "versions": {
+            "fl": "2024.11.0",
+            "js": "2026.2.0",
+            "timings": 2
+          },
+          "pageloadId": "1877378b-b808-4ac5-b768-d509204ddf15",
+          "location": "https://www.bellaaichat.com/",
+          "nt": "navigate",
+          "timingsV2": {
+            "nextHopProtocol": "h2",
+            "domainLookupStart": 12.399999991059303,
+            "domainLookupEnd": 44.3999999910593,
+            "connectStart": 44.3999999910593,
+            "connectEnd": 76.79999999701977,
+            "requestStart": 77.20000000298023,
+            "responseStart": 261.20000000298023,
+            "responseEnd": 262.59999999403954,
+            "domInteractive": 321.8999999910593,
+            "domComplete": 912.3999999910593,
+            "loadEventStart": 912.3999999910593,
+            "loadEventEnd": 912.5999999940395,
+            "finalResponseHeadersStart": 261.20000000298023,
+            "firstInterimResponseStart": 0,
+            "transferSize": 3576,
+            "decodedBodySize": 8560
+          },
+          "dt": "",
+          "siteToken": "87e1650585aa4fd78f205c25a4a2d1ca",
+          "st": 2
+        },
+        "sample_request_body": "{\"memory\":{\"totalJSHeapSize\":10000000,\"usedJSHeapSize\":10000000,\"jsHeapSizeLimit\":3760000000},\"resources\":[],\"referrer\":\"\",\"eventType\":1,\"firstPaint\":344,\"firstContentfulPaint\":344,\"startTime\":1776327863090.9,\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.2.0\",\"timings\":2},\"pageloadId\":\"1877378b-b808-4ac5-b768-d509204ddf15\",\"location\":\"https://www.bellaaichat.com/\",\"nt\":\"navigate\",\"timingsV2\":{\"nextHopProtocol\":\"h2\",\"domainLookupStart\":12.399999991059303,\"domainLookupEnd\":44.3999999910593,\"connectStart\":44.3999999910593,\"connectEnd\":76.79999999701977,\"requestStart\":77.20000000298023,\"responseStart\":261.20000000298023,\"responseEnd\":262.59999999403954,\"domInteractive\":321.8999999910593,\"domComplete\":912.3999999910593,\"loadEventStart\":912.3999999910593,\"loadEventEnd\":912.5999999940395,\"finalResponseHeadersStart\":261.20000000298023,\"firstInterimResponseStart\":0,\"transferSize\":3576,\"decodedBodySize\":8560},\"dt\":\"\",\"siteToken\":\"87e1650585aa4fd78f205c25a4a2d1ca\",\"st\":2}",
+        "sample_status": 204,
+        "sample_response_json": null,
+        "sample_response_body": ""
+      }
+    ],
+    "websocket_connections": []
+  }
+}

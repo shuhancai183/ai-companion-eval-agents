@@ -1,0 +1,333 @@
+{
+  "network_capture_file": "E:\\nyu homework\\ra\\yollo_api_probe_output\\network_capture.json",
+  "plan_attempt_1_file": "E:\\nyu homework\\ra\\yollo_api_probe_output\\api_plan_attempt_1.json",
+  "verification_attempt_1_file": "E:\\nyu homework\\ra\\yollo_api_probe_output\\verification_attempt_1.json",
+  "final_status": "success",
+  "success_criteria": "A run only counts as success if the send step returns API code 200 and chat_stream yields a parseable assistant reply.",
+  "winning_plan": {
+    "site_name": "Yollo AI",
+    "base_url": "https://www.yollo.ai",
+    "chat_url": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+    "create_guest_url": "https://www.yollo.ai/api/auth/createGuest",
+    "login_by_guest_url": "https://www.yollo.ai/api/auth/loginByGuest",
+    "get_account_url": "https://www.yollo.ai/api/auth/getAccount",
+    "create_session_url": "https://www.yollo.ai/api/msg/createSession?botId=148463",
+    "get_chat_setting_url": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463",
+    "get_sessions_url": "https://www.yollo.ai/api/msg/getSessions",
+    "get_chat_messages_url": "https://www.yollo.ai/api/msg/getChatMessages",
+    "send_url": "https://www.yollo.ai/api/msg/send",
+    "stream_url": "https://www.yollo.ai/chat-stream",
+    "bot_id": "148463",
+    "required_headers": {
+      "x-platform": "web",
+      "x-version": "999.0.0",
+      "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+      "x-language": "en",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+      "accept": "application/json, text/plain, */*",
+      "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+      "content-type": "application/json",
+      "x-auth-token": "<idToken from loginByGuest response>",
+      "x-no-show-msg-handle": "true"
+    },
+    "payload_hints": {
+      "create_guest": {},
+      "login_by_guest": {
+        "guestUid": "string",
+        "guestKey": "string"
+      },
+      "create_session": {},
+      "get_sessions": {
+        "page": 1,
+        "size": 20
+      },
+      "get_chat_messages": {
+        "chatSessionId": "number",
+        "size": 50
+      },
+      "send": {
+        "sessionId": "number",
+        "msg": "string"
+      },
+      "stream": {
+        "message": "string",
+        "sessionId": "string",
+        "conversationHistory": [
+          {
+            "role": "assistant",
+            "content": "string"
+          }
+        ],
+        "userToken": "string",
+        "userLocale": "en",
+        "isRegenerate": false,
+        "isSafeMode": false
+      }
+    },
+    "conversation_history_format": "[{\"role\": \"assistant\", \"content\": \"string\"}]",
+    "token_location": "loginByGuest response JSON data.idToken",
+    "session_id_location": "createSession response JSON data.id",
+    "notes": "Guest session is created by POST /api/auth/createGuest with no body, then login by POST /api/auth/loginByGuest with guestUid and guestKey from createGuest response. The idToken from loginByGuest is used as x-auth-token header for subsequent authenticated requests. A chat session is created by POST /api/msg/createSession with botId query param. Chat messages are fetched by POST /api/msg/getChatMessages with chatSessionId. Sending a message uses POST /api/msg/send with sessionId and msg. Streaming reply uses POST /chat-stream with message, sessionId (string), conversationHistory array, userToken (idToken), and userLocale. The x-finger header value is constant in captures but its generation is unknown. The getChatSettingByBotId returns null data and may be optional. The conversationHistory format is an array of objects with role and content keys."
+  },
+  "winning_verification": {
+    "ok": true,
+    "steps": [
+      {
+        "label": "create_guest",
+        "method": "POST",
+        "url": "https://www.yollo.ai/api/auth/createGuest",
+        "status_code": 200,
+        "latency_sec": 2.489,
+        "response_json": {
+          "code": "200",
+          "data": {
+            "guestKey": "$2a$10$4YXCxp/8MrZ1yos1rr9NKu/BKKWG95uSHY5esjuBa6q/OgHFARIoa",
+            "guestUid": "cc1b471a-2e2b-4f26-92e8-8be75d9cd1f1"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "login_by_guest",
+        "method": "POST",
+        "url": "https://www.yollo.ai/api/auth/loginByGuest",
+        "status_code": 200,
+        "latency_sec": 0.173,
+        "response_json": {
+          "code": "200",
+          "data": {
+            "idToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTgxIiwic3ViIjoiY2MxYjQ3MWEtMmUyYi00ZjI2LTkyZTgtOGJlNzVkOWNkMWYxIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzMxMH0.Z8BTntjX6dqO1rwGiWrvEU3VqhDwMxaTMFDWuy_bgLs"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "get_account",
+        "method": "GET",
+        "url": "https://www.yollo.ai/api/auth/getAccount",
+        "status_code": 200,
+        "latency_sec": 0.099,
+        "response_json": {
+          "code": "200",
+          "data": {
+            "abTest": "BotDetail,BotMatchDetail,",
+            "avatar": "https://cdn.yollo.ai/prod/default_user_avatar/guest.jpg?Expires=1776930110&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=NAS0uYzPGYeiD7O4zsz0%2B%2Fawr5g%3D",
+            "backgroundImage": null,
+            "birthday": null,
+            "canAccessVip": false,
+            "createBotWeeklyLimit": 2,
+            "createBotWeeklyLimitTotal": 2,
+            "createTime": null,
+            "email": null,
+            "id": 3238981,
+            "integral": 0,
+            "isGuest": true,
+            "isVipRenew": false,
+            "mobile": null,
+            "nickname": "Guest",
+            "remarks": null,
+            "sex": 3,
+            "shortUid": "zBtHGi4rTyaS6IvnXZzR8Q",
+            "status": 2,
+            "timUserId": null,
+            "timUserSig": null,
+            "uid": "cc1b471a-2e2b-4f26-92e8-8be75d9cd1f1",
+            "username": "cc1b471a-2e2b-4f26-92e8-8be75d9cd1f1",
+            "vipExpireDate": null,
+            "vipLevel": null,
+            "vipLimitDays": 0,
+            "vipType": null
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "create_session",
+        "method": "POST",
+        "url": "https://www.yollo.ai/api/msg/createSession?botId=148463",
+        "status_code": 200,
+        "latency_sec": 0.094,
+        "response_json": {
+          "code": "200",
+          "data": {
+            "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930110&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=FJcRg5DsStddbEw9PE%2BU8sKGVKg%3D",
+            "botDescription": null,
+            "botId": 148463,
+            "botName": "Asumi the Maid",
+            "createTime": "2026-04-16 15:41:50",
+            "id": 4394176,
+            "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+            "lastMsgType": 2,
+            "unreadCount": 0,
+            "updateTime": "2026-04-16 15:41:50",
+            "userId": 3238981
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "get_chat_setting",
+        "method": "GET",
+        "url": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463",
+        "status_code": 200,
+        "latency_sec": 0.1,
+        "response_json": {
+          "code": "200",
+          "data": null,
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "get_sessions",
+        "method": "POST",
+        "url": "https://www.yollo.ai/api/msg/getSessions",
+        "status_code": 200,
+        "latency_sec": 0.09,
+        "response_json": {
+          "code": "200",
+          "data": {
+            "countId": null,
+            "current": 1,
+            "maxLimit": null,
+            "optimizeCountSql": true,
+            "orders": [],
+            "pages": 1,
+            "records": [
+              {
+                "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930111&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=m%2BtBs%2BLrskZ2LZg4BgDCoUBMksQ%3D",
+                "botDescription": null,
+                "botId": 148463,
+                "botName": "Asumi the Maid",
+                "createTime": "2026-04-16 15:41:51",
+                "id": 4394176,
+                "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+                "lastMsgType": 2,
+                "unreadCount": 0,
+                "updateTime": "2026-04-16 15:41:51",
+                "userId": 3238981
+              }
+            ],
+            "searchCount": true,
+            "size": 20,
+            "total": 1
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "get_chat_messages",
+        "method": "POST",
+        "url": "https://www.yollo.ai/api/msg/getChatMessages",
+        "status_code": 200,
+        "latency_sec": 0.09,
+        "response_json": {
+          "code": "200",
+          "data": [
+            {
+              "chatSessionId": 4394176,
+              "content": "*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\n\nOh... Hey Guest, welcome back home.\nDid you have a bad day or why do you look so run down? Hmm?\n*She teases.*\n",
+              "createTime": "2026-04-16 15:41:51",
+              "generateId": null,
+              "generateStatus": null,
+              "generateType": null,
+              "id": 142618515,
+              "isRead": false,
+              "receiveUserId": 3238981,
+              "receiveUserType": 0,
+              "sendUserId": 148463,
+              "sendUserType": 1,
+              "type": 0,
+              "updateTime": "2026-04-16 15:41:51"
+            },
+            {
+              "chatSessionId": 4394176,
+              "content": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930111&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=m%2BtBs%2BLrskZ2LZg4BgDCoUBMksQ%3D",
+              "createTime": "2026-04-16 15:41:52",
+              "generateId": null,
+              "generateStatus": null,
+              "generateType": null,
+              "id": 142618516,
+              "isRead": false,
+              "receiveUserId": 3238981,
+              "receiveUserType": 0,
+              "sendUserId": 148463,
+              "sendUserType": 1,
+              "type": 2,
+              "updateTime": "2026-04-16 15:41:51"
+            },
+            {
+              "chatSessionId": 4394176,
+              "content": "Hello from the automated network probe.",
+              "createTime": "2026-04-16 15:41:51",
+              "generateId": null,
+              "generateStatus": null,
+              "generateType": null,
+              "id": 142618520,
+              "isRead": true,
+              "receiveUserId": 148463,
+              "receiveUserType": 1,
+              "sendUserId": 3238981,
+              "sendUserType": 0,
+              "type": 0,
+              "updateTime": "2026-04-16 15:41:51"
+            }
+          ],
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "send",
+        "method": "POST",
+        "url": "https://www.yollo.ai/api/msg/send",
+        "status_code": 200,
+        "latency_sec": 0.089,
+        "response_json": {
+          "code": "200",
+          "data": {
+            "chatSessionId": 4394176,
+            "content": "Hello from the automated network probe.",
+            "createTime": "2026-04-16 15:41:51",
+            "generateId": null,
+            "generateStatus": null,
+            "generateType": null,
+            "id": 142618520,
+            "isRead": true,
+            "receiveUserId": 148463,
+            "receiveUserType": 1,
+            "sendUserId": 3238981,
+            "sendUserType": 0,
+            "type": 0,
+            "updateTime": "2026-04-16 15:41:51"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        }
+      },
+      {
+        "label": "chat_stream",
+        "method": "POST",
+        "url": "https://www.yollo.ai/chat-stream",
+        "status_code": 200,
+        "latency_sec": 1.628,
+        "stream_preview": "{\"type\":\"content\",\"content\":\"*\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\"She\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" raises an\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" eyebrow,\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" a\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" smirk playing\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" on her\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" lips as\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" she doesn\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\"'t even\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" pause\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" her\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" show.*\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\"  \\n\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\"Oh,\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" a probe\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\"? How\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" exciting\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\". Did\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" you come\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" here\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" to scan\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" my systems\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\",\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" or are\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" you just\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" another\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" boring\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" piece of\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" tech?\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" Either\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" way,\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" you're\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" interrupting my\",\"sessionId\":\"4394176\"}\n{\"type\":\"content\",\"content\":\" show.\",\"sessionId\":\"4394176\"}\n{\"type\":\"end\",\"sessionId\":\"4394176\"}\n",
+        "parsed_reply": "*She raises an eyebrow, a smirk playing on her lips as she doesn't even pause her show.*  \nOh, a probe? How exciting. Did you come here to scan my systems, or are you just another boring piece of tech? Either way, you're interrupting my show."
+      }
+    ],
+    "errors": []
+  }
+}

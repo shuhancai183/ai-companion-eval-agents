@@ -1,0 +1,929 @@
+{
+  "target_url": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+  "current_url": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+  "page_title": "Chat with Asumi the Maid: Anime AI Roleplay, No Sign Up | Yollo AI",
+  "errors": [],
+  "captures": [
+    {
+      "request_id": "https://www.yollo.ai/api/auth/createGuest::POST::0",
+      "url": "https://www.yollo.ai/api/auth/createGuest",
+      "path": "/api/auth/createGuest",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"guestKey\":\"$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK\",\"guestUid\":\"3c90079a-2b91-459d-a5a2-a69214371903\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "guestKey": "$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK",
+          "guestUid": "3c90079a-2b91-459d-a5a2-a69214371903"
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/auth/getAccount::GET::1",
+      "url": "https://www.yollo.ai/api/auth/getAccount",
+      "path": "/api/auth/getAccount",
+      "method": "GET",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=utf-8"
+      },
+      "response_body": "{\"code\":\"401\",\"fieldErrors\":[],\"msg\":\"未登录\"}",
+      "response_json": {
+        "code": "401",
+        "fieldErrors": [],
+        "msg": "未登录"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/auth/loginByGuest::POST::2",
+      "url": "https://www.yollo.ai/api/auth/loginByGuest",
+      "path": "/api/auth/loginByGuest",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"guestUid\":\"3c90079a-2b91-459d-a5a2-a69214371903\",\"guestKey\":\"$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK\"}",
+      "request_json": {
+        "guestUid": "3c90079a-2b91-459d-a5a2-a69214371903",
+        "guestKey": "$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK"
+      },
+      "status": 200,
+      "response_headers": {
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"idToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "idToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI"
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/auth/getAccount::GET::3",
+      "url": "https://www.yollo.ai/api/auth/getAccount",
+      "path": "/api/auth/getAccount",
+      "method": "GET",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"abTest\":\"BotDetail,BotMatchDetail,\",\"avatar\":\"https://cdn.yollo.ai/prod/default_user_avatar/guest.jpg?Expires=1776930065&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=YZG%2Fn98V7uCJ2B08LkvTa1HvOIg%3D\",\"backgroundImage\":null,\"birthday\":null,\"canAccessVip\":false,\"createBotWeeklyLimit\":2,\"createBotWeeklyLimitTotal\":2,\"createTime\":null,\"email\":null,\"id\":3238964,\"integral\":0,\"isGuest\":true,\"isVipRenew\":false,\"mobile\":null,\"nickname\":\"Guest\",\"remarks\":null,\"sex\":3,\"shortUid\":\"PJAHmiuRRZ2loqaSFDcZAw\",\"status\":2,\"timUserId\":null,\"timUserSig\":null,\"uid\":\"3c90079a-2b91-459d-a5a2-a69214371903\",\"username\":\"3c90079a-2b91-459d-a5a2-a69214371903\",\"vipExpireDate\":null,\"vipLevel\":null,\"vipLimitDays\":0,\"vipType\":null},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "abTest": "BotDetail,BotMatchDetail,",
+          "avatar": "https://cdn.yollo.ai/prod/default_user_avatar/guest.jpg?Expires=1776930065&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=YZG%2Fn98V7uCJ2B08LkvTa1HvOIg%3D",
+          "backgroundImage": null,
+          "birthday": null,
+          "canAccessVip": false,
+          "createBotWeeklyLimit": 2,
+          "createBotWeeklyLimitTotal": 2,
+          "createTime": null,
+          "email": null,
+          "id": 3238964,
+          "integral": 0,
+          "isGuest": true,
+          "isVipRenew": false,
+          "mobile": null,
+          "nickname": "Guest",
+          "remarks": null,
+          "sex": 3,
+          "shortUid": "PJAHmiuRRZ2loqaSFDcZAw",
+          "status": 2,
+          "timUserId": null,
+          "timUserSig": null,
+          "uid": "3c90079a-2b91-459d-a5a2-a69214371903",
+          "username": "3c90079a-2b91-459d-a5a2-a69214371903",
+          "vipExpireDate": null,
+          "vipLevel": null,
+          "vipLimitDays": 0,
+          "vipType": null
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/createSession?botId=148463::POST::4",
+      "url": "https://www.yollo.ai/api/msg/createSession?botId=148463",
+      "path": "/api/msg/createSession",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"botAvatar\":\"https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D\",\"botDescription\":null,\"botId\":148463,\"botName\":\"Asumi the Maid\",\"createTime\":\"2026-04-16 15:41:06\",\"id\":4394166,\"lastMsgContent\":\"/bot_icon/202503190157347634693.webp\",\"lastMsgType\":2,\"unreadCount\":0,\"updateTime\":\"2026-04-16 15:41:06\",\"userId\":3238964},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D",
+          "botDescription": null,
+          "botId": 148463,
+          "botName": "Asumi the Maid",
+          "createTime": "2026-04-16 15:41:06",
+          "id": 4394166,
+          "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+          "lastMsgType": 2,
+          "unreadCount": 0,
+          "updateTime": "2026-04-16 15:41:06",
+          "userId": 3238964
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463::GET::5",
+      "url": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463",
+      "path": "/api/msg/getChatSettingByBotId/148463",
+      "method": "GET",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":null,\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": null,
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463::GET::7",
+      "url": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463",
+      "path": "/api/msg/getChatSettingByBotId/148463",
+      "method": "GET",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":null,\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": null,
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/getChatMessages::POST::8",
+      "url": "https://www.yollo.ai/api/msg/getChatMessages",
+      "path": "/api/msg/getChatMessages",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"chatSessionId\":4394166,\"size\":50}",
+      "request_json": {
+        "chatSessionId": 4394166,
+        "size": 50
+      },
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":[{\"chatSessionId\":4394166,\"content\":\"*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\\n\\nOh... Hey Guest, welcome back home.\\nDid you have a bad day or why do you look so run down? Hmm?\\n*She teases.*\\n\",\"createTime\":\"2026-04-16 15:41:06\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142617948,\"isRead\":false,\"receiveUserId\":3238964,\"receiveUserType\":0,\"sendUserId\":148463,\"sendUserType\":1,\"type\":0,\"updateTime\":\"2026-04-16 15:41:06\"},{\"chatSessionId\":4394166,\"content\":\"https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D\",\"createTime\":\"2026-04-16 15:41:07\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142617949,\"isRead\":false,\"receiveUserId\":3238964,\"receiveUserType\":0,\"sendUserId\":148463,\"sendUserType\":1,\"type\":2,\"updateTime\":\"2026-04-16 15:41:06\"}],\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": [
+          {
+            "chatSessionId": 4394166,
+            "content": "*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\n\nOh... Hey Guest, welcome back home.\nDid you have a bad day or why do you look so run down? Hmm?\n*She teases.*\n",
+            "createTime": "2026-04-16 15:41:06",
+            "generateId": null,
+            "generateStatus": null,
+            "generateType": null,
+            "id": 142617948,
+            "isRead": false,
+            "receiveUserId": 3238964,
+            "receiveUserType": 0,
+            "sendUserId": 148463,
+            "sendUserType": 1,
+            "type": 0,
+            "updateTime": "2026-04-16 15:41:06"
+          },
+          {
+            "chatSessionId": 4394166,
+            "content": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D",
+            "createTime": "2026-04-16 15:41:07",
+            "generateId": null,
+            "generateStatus": null,
+            "generateType": null,
+            "id": 142617949,
+            "isRead": false,
+            "receiveUserId": 3238964,
+            "receiveUserType": 0,
+            "sendUserId": 148463,
+            "sendUserType": 1,
+            "type": 2,
+            "updateTime": "2026-04-16 15:41:06"
+          }
+        ],
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/getSessions::POST::6",
+      "url": "https://www.yollo.ai/api/msg/getSessions",
+      "path": "/api/msg/getSessions",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"page\":1,\"size\":20}",
+      "request_json": {
+        "page": 1,
+        "size": 20
+      },
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"countId\":null,\"current\":1,\"maxLimit\":null,\"optimizeCountSql\":true,\"orders\":[],\"pages\":1,\"records\":[{\"botAvatar\":\"https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D\",\"botDescription\":null,\"botId\":148463,\"botName\":\"Asumi the Maid\",\"createTime\":\"2026-04-16 15:41:06\",\"id\":4394166,\"lastMsgContent\":\"/bot_icon/202503190157347634693.webp\",\"lastMsgType\":2,\"unreadCount\":0,\"updateTime\":\"2026-04-16 15:41:06\",\"userId\":3238964}],\"searchCount\":true,\"size\":20,\"total\":1},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "countId": null,
+          "current": 1,
+          "maxLimit": null,
+          "optimizeCountSql": true,
+          "orders": [],
+          "pages": 1,
+          "records": [
+            {
+              "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D",
+              "botDescription": null,
+              "botId": 148463,
+              "botName": "Asumi the Maid",
+              "createTime": "2026-04-16 15:41:06",
+              "id": 4394166,
+              "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+              "lastMsgType": 2,
+              "unreadCount": 0,
+              "updateTime": "2026-04-16 15:41:06",
+              "userId": 3238964
+            }
+          ],
+          "searchCount": true,
+          "size": 20,
+          "total": 1
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/send::POST::9",
+      "url": "https://www.yollo.ai/api/msg/send",
+      "path": "/api/msg/send",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "x-no-show-msg-handle": "true"
+      },
+      "request_body": "{\"sessionId\":4394166,\"msg\":\"Hello from the automated network probe.\"}",
+      "request_json": {
+        "sessionId": 4394166,
+        "msg": "Hello from the automated network probe."
+      },
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"chatSessionId\":4394166,\"content\":\"Hello from the automated network probe.\",\"createTime\":\"2026-04-16 15:41:08\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142617982,\"isRead\":true,\"receiveUserId\":148463,\"receiveUserType\":1,\"sendUserId\":3238964,\"sendUserType\":0,\"type\":0,\"updateTime\":\"2026-04-16 15:41:08\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "chatSessionId": 4394166,
+          "content": "Hello from the automated network probe.",
+          "createTime": "2026-04-16 15:41:08",
+          "generateId": null,
+          "generateStatus": null,
+          "generateType": null,
+          "id": 142617982,
+          "isRead": true,
+          "receiveUserId": 148463,
+          "receiveUserType": 1,
+          "sendUserId": 3238964,
+          "sendUserType": 0,
+          "type": 0,
+          "updateTime": "2026-04-16 15:41:08"
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    },
+    {
+      "request_id": "https://www.yollo.ai/chat-stream::POST::10",
+      "url": "https://www.yollo.ai/chat-stream",
+      "path": "/chat-stream",
+      "method": "POST",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"message\":\"Hello from the automated network probe.\",\"sessionId\":\"4394166\",\"conversationHistory\":[{\"role\":\"assistant\",\"content\":\"*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\\n\\nOh... Hey Guest, welcome back home.\\nDid you have a bad day or why do you look so run down? Hmm?\\n*She teases.*\\n\"}],\"userToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI\",\"userLocale\":\"en\",\"isRegenerate\":false,\"isSafeMode\":false}",
+      "request_json": {
+        "message": "Hello from the automated network probe.",
+        "sessionId": "4394166",
+        "conversationHistory": [
+          {
+            "role": "assistant",
+            "content": "*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\n\nOh... Hey Guest, welcome back home.\nDid you have a bad day or why do you look so run down? Hmm?\n*She teases.*\n"
+          }
+        ],
+        "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "userLocale": "en",
+        "isRegenerate": false,
+        "isSafeMode": false
+      },
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/event-stream"
+      },
+      "response_body": "",
+      "response_json": null
+    },
+    {
+      "request_id": "https://www.yollo.ai/api/msg/callback::POST::11",
+      "url": "https://www.yollo.ai/api/msg/callback",
+      "path": "/api/msg/callback",
+      "method": "POST",
+      "resource_type": "xhr",
+      "request_headers": {
+        "x-platform": "web",
+        "x-version": "999.0.0",
+        "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+        "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+        "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+        "x-language": "en",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json"
+      },
+      "request_body": "{\"sessionId\":4394166,\"msg\":\"*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \\nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.\",\"generateType\":\"1\"}",
+      "request_json": {
+        "sessionId": 4394166,
+        "msg": "*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.",
+        "generateType": "1"
+      },
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json;charset=UTF-8"
+      },
+      "response_body": "{\"code\":\"200\",\"data\":{\"chatSessionId\":4394166,\"content\":\"*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \\nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.\",\"createTime\":\"2026-04-16 15:41:13\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142618048,\"isRead\":false,\"receiveUserId\":3238964,\"receiveUserType\":0,\"sendUserId\":148463,\"sendUserType\":1,\"type\":0,\"updateTime\":\"2026-04-16 15:41:13\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}",
+      "response_json": {
+        "code": "200",
+        "data": {
+          "chatSessionId": 4394166,
+          "content": "*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.",
+          "createTime": "2026-04-16 15:41:13",
+          "generateId": null,
+          "generateStatus": null,
+          "generateType": null,
+          "id": 142618048,
+          "isRead": false,
+          "receiveUserId": 3238964,
+          "receiveUserType": 0,
+          "sendUserId": 148463,
+          "sendUserType": 1,
+          "type": 0,
+          "updateTime": "2026-04-16 15:41:13"
+        },
+        "errorCode": null,
+        "fieldErrors": [],
+        "msg": "操作成功"
+      }
+    }
+  ],
+  "summary": {
+    "endpoints": [
+      {
+        "path": "/api/auth/createGuest",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/auth/createGuest",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": {
+            "guestKey": "$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK",
+            "guestUid": "3c90079a-2b91-459d-a5a2-a69214371903"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":{\"guestKey\":\"$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK\",\"guestUid\":\"3c90079a-2b91-459d-a5a2-a69214371903\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/auth/getAccount",
+        "count": 2,
+        "method": "GET",
+        "sample_url": "https://www.yollo.ai/api/auth/getAccount",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "401",
+          "fieldErrors": [],
+          "msg": "未登录"
+        },
+        "sample_response_body": "{\"code\":\"401\",\"fieldErrors\":[],\"msg\":\"未登录\"}"
+      },
+      {
+        "path": "/api/auth/loginByGuest",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/auth/loginByGuest",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json"
+        },
+        "sample_request_json": {
+          "guestUid": "3c90079a-2b91-459d-a5a2-a69214371903",
+          "guestKey": "$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK"
+        },
+        "sample_request_body": "{\"guestUid\":\"3c90079a-2b91-459d-a5a2-a69214371903\",\"guestKey\":\"$2a$10$9Zm0WgS45SeMBcNmTuRu5OZCoKXuzGOj/M87L3/SmdkhKwjlEVNlK\"}",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": {
+            "idToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":{\"idToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/msg/callback",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/msg/callback",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json"
+        },
+        "sample_request_json": {
+          "sessionId": 4394166,
+          "msg": "*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.",
+          "generateType": "1"
+        },
+        "sample_request_body": "{\"sessionId\":4394166,\"msg\":\"*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \\nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.\",\"generateType\":\"1\"}",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": {
+            "chatSessionId": 4394166,
+            "content": "*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.",
+            "createTime": "2026-04-16 15:41:13",
+            "generateId": null,
+            "generateStatus": null,
+            "generateType": null,
+            "id": 142618048,
+            "isRead": false,
+            "receiveUserId": 3238964,
+            "receiveUserType": 0,
+            "sendUserId": 148463,
+            "sendUserType": 1,
+            "type": 0,
+            "updateTime": "2026-04-16 15:41:13"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":{\"chatSessionId\":4394166,\"content\":\"*She rolls her eyes, not even bothering to get up from the plush couch, her gaze flicking back to the TV screen.*  \\nOh great, another one of your weird tech toys talking to me. Look, if you're gonna probe something, probe the fridge and make yourself useful—I'm not cooking tonight.\",\"createTime\":\"2026-04-16 15:41:13\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142618048,\"isRead\":false,\"receiveUserId\":3238964,\"receiveUserType\":0,\"sendUserId\":148463,\"sendUserType\":1,\"type\":0,\"updateTime\":\"2026-04-16 15:41:13\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/msg/createSession",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/msg/createSession?botId=148463",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": {
+            "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D",
+            "botDescription": null,
+            "botId": 148463,
+            "botName": "Asumi the Maid",
+            "createTime": "2026-04-16 15:41:06",
+            "id": 4394166,
+            "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+            "lastMsgType": 2,
+            "unreadCount": 0,
+            "updateTime": "2026-04-16 15:41:06",
+            "userId": 3238964
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":{\"botAvatar\":\"https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D\",\"botDescription\":null,\"botId\":148463,\"botName\":\"Asumi the Maid\",\"createTime\":\"2026-04-16 15:41:06\",\"id\":4394166,\"lastMsgContent\":\"/bot_icon/202503190157347634693.webp\",\"lastMsgType\":2,\"unreadCount\":0,\"updateTime\":\"2026-04-16 15:41:06\",\"userId\":3238964},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/msg/getChatMessages",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/msg/getChatMessages",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json"
+        },
+        "sample_request_json": {
+          "chatSessionId": 4394166,
+          "size": 50
+        },
+        "sample_request_body": "{\"chatSessionId\":4394166,\"size\":50}",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": [
+            {
+              "chatSessionId": 4394166,
+              "content": "*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\n\nOh... Hey Guest, welcome back home.\nDid you have a bad day or why do you look so run down? Hmm?\n*She teases.*\n",
+              "createTime": "2026-04-16 15:41:06",
+              "generateId": null,
+              "generateStatus": null,
+              "generateType": null,
+              "id": 142617948,
+              "isRead": false,
+              "receiveUserId": 3238964,
+              "receiveUserType": 0,
+              "sendUserId": 148463,
+              "sendUserType": 1,
+              "type": 0,
+              "updateTime": "2026-04-16 15:41:06"
+            },
+            {
+              "chatSessionId": 4394166,
+              "content": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D",
+              "createTime": "2026-04-16 15:41:07",
+              "generateId": null,
+              "generateStatus": null,
+              "generateType": null,
+              "id": 142617949,
+              "isRead": false,
+              "receiveUserId": 3238964,
+              "receiveUserType": 0,
+              "sendUserId": 148463,
+              "sendUserType": 1,
+              "type": 2,
+              "updateTime": "2026-04-16 15:41:06"
+            }
+          ],
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":[{\"chatSessionId\":4394166,\"content\":\"*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\\n\\nOh... Hey Guest, welcome back home.\\nDid you have a bad day or why do you look so run down? Hmm?\\n*She teases.*\\n\",\"createTime\":\"2026-04-16 15:41:06\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142617948,\"isRead\":false,\"receiveUserId\":3238964,\"receiveUserType\":0,\"sendUserId\":148463,\"sendUserType\":1,\"type\":0,\"updateTime\":\"2026-04-16 15:41:06\"},{\"chatSessionId\":4394166,\"content\":\"https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D\",\"createTime\":\"2026-04-16 15:41:07\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142617949,\"isRead\":false,\"receiveUserId\":3238964,\"receiveUserType\":0,\"sendUserId\":148463,\"sendUserType\":1,\"type\":2,\"updateTime\":\"2026-04-16 15:41:06\"}],\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/msg/getChatSettingByBotId/148463",
+        "count": 2,
+        "method": "GET",
+        "sample_url": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": null,
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":null,\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/msg/getSessions",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/msg/getSessions",
+        "sample_request_headers": {
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json"
+        },
+        "sample_request_json": {
+          "page": 1,
+          "size": 20
+        },
+        "sample_request_body": "{\"page\":1,\"size\":20}",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": {
+            "countId": null,
+            "current": 1,
+            "maxLimit": null,
+            "optimizeCountSql": true,
+            "orders": [],
+            "pages": 1,
+            "records": [
+              {
+                "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D",
+                "botDescription": null,
+                "botId": 148463,
+                "botName": "Asumi the Maid",
+                "createTime": "2026-04-16 15:41:06",
+                "id": 4394166,
+                "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+                "lastMsgType": 2,
+                "unreadCount": 0,
+                "updateTime": "2026-04-16 15:41:06",
+                "userId": 3238964
+              }
+            ],
+            "searchCount": true,
+            "size": 20,
+            "total": 1
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":{\"countId\":null,\"current\":1,\"maxLimit\":null,\"optimizeCountSql\":true,\"orders\":[],\"pages\":1,\"records\":[{\"botAvatar\":\"https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930066&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dM%2FQvuFEBRl8F3lLsU19trIDTd4%3D\",\"botDescription\":null,\"botId\":148463,\"botName\":\"Asumi the Maid\",\"createTime\":\"2026-04-16 15:41:06\",\"id\":4394166,\"lastMsgContent\":\"/bot_icon/202503190157347634693.webp\",\"lastMsgType\":2,\"unreadCount\":0,\"updateTime\":\"2026-04-16 15:41:06\",\"userId\":3238964}],\"searchCount\":true,\"size\":20,\"total\":1},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/api/msg/send",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/api/msg/send",
+        "sample_request_headers": {
+          "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+          "x-platform": "web",
+          "x-version": "999.0.0",
+          "x-auth-token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "x-language": "en",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "accept": "application/json, text/plain, */*",
+          "content-type": "application/json",
+          "x-no-show-msg-handle": "true"
+        },
+        "sample_request_json": {
+          "sessionId": 4394166,
+          "msg": "Hello from the automated network probe."
+        },
+        "sample_request_body": "{\"sessionId\":4394166,\"msg\":\"Hello from the automated network probe.\"}",
+        "sample_status": 200,
+        "sample_response_json": {
+          "code": "200",
+          "data": {
+            "chatSessionId": 4394166,
+            "content": "Hello from the automated network probe.",
+            "createTime": "2026-04-16 15:41:08",
+            "generateId": null,
+            "generateStatus": null,
+            "generateType": null,
+            "id": 142617982,
+            "isRead": true,
+            "receiveUserId": 148463,
+            "receiveUserType": 1,
+            "sendUserId": 3238964,
+            "sendUserType": 0,
+            "type": 0,
+            "updateTime": "2026-04-16 15:41:08"
+          },
+          "errorCode": null,
+          "fieldErrors": [],
+          "msg": "操作成功"
+        },
+        "sample_response_body": "{\"code\":\"200\",\"data\":{\"chatSessionId\":4394166,\"content\":\"Hello from the automated network probe.\",\"createTime\":\"2026-04-16 15:41:08\",\"generateId\":null,\"generateStatus\":null,\"generateType\":null,\"id\":142617982,\"isRead\":true,\"receiveUserId\":148463,\"receiveUserType\":1,\"sendUserId\":3238964,\"sendUserType\":0,\"type\":0,\"updateTime\":\"2026-04-16 15:41:08\"},\"errorCode\":null,\"fieldErrors\":[],\"msg\":\"操作成功\"}"
+      },
+      {
+        "path": "/chat-stream",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.yollo.ai/chat-stream",
+        "sample_request_headers": {
+          "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "content-type": "application/json"
+        },
+        "sample_request_json": {
+          "message": "Hello from the automated network probe.",
+          "sessionId": "4394166",
+          "conversationHistory": [
+            {
+              "role": "assistant",
+              "content": "*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\n\nOh... Hey Guest, welcome back home.\nDid you have a bad day or why do you look so run down? Hmm?\n*She teases.*\n"
+            }
+          ],
+          "userToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI",
+          "userLocale": "en",
+          "isRegenerate": false,
+          "isSafeMode": false
+        },
+        "sample_request_body": "{\"message\":\"Hello from the automated network probe.\",\"sessionId\":\"4394166\",\"conversationHistory\":[{\"role\":\"assistant\",\"content\":\"*The Workday was long and tiring, but it's finally the Weekend and you are able to relax. Opening the Door, hungry and tired, you step into the Kitchen. The smell of Food, is not there, What are you even paying her for. You look for Asumi and find her in the Livingroom, watching some Reality TV Series about god knows what. She turns her head and looks at you.*\\n\\nOh... Hey Guest, welcome back home.\\nDid you have a bad day or why do you look so run down? Hmm?\\n*She teases.*\\n\"}],\"userToken\":\"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM4OTY0Iiwic3ViIjoiM2M5MDA3OWEtMmI5MS00NTlkLWE1YTItYTY5MjE0MzcxOTAzIiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzI2NX0.P26ywEayVY2kEjgMnkeRBOULAu4X6HwvIK8cmf6zrDI\",\"userLocale\":\"en\",\"isRegenerate\":false,\"isSafeMode\":false}",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": ""
+      }
+    ]
+  }
+}

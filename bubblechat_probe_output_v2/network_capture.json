@@ -1,0 +1,200 @@
+{
+  "target_url": "https://bubblechat.ai/chat",
+  "current_url": "https://bubblechat.ai/chat",
+  "page_title": "나만의 AI 채팅의 시작. 버블챗!",
+  "errors": [],
+  "actions": [
+    {
+      "action": "send_message_failed"
+    }
+  ],
+  "http_captures": [
+    {
+      "request_id": "https://bubblechat.ai/chat::GET::0",
+      "url": "https://bubblechat.ai/chat",
+      "path": "/chat",
+      "method": "GET",
+      "resource_type": "document",
+      "request_headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/html"
+      },
+      "response_body": "<!doctype html>\n<html lang=\"ko\">\n  <head>\n    <title>나만의 AI 채팅의 시작. 버블챗!</title>\n    <base href=\"/\" />\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />\n    <meta name=\"theme-color\" content=\"#000000\" />\n    <meta name=\"facebook-domain-verification\" content=\"6q1053gvbl5h4b86393tl3kwqzfa13\" />\n    <meta name=\"google-site-verification\" content=\"dWCqN1mHZbBnt7wM_NBYtIjZ3OBtjcFsXxh5N6CZ26o\" />\n    <meta\n      name=\"description\"\n      content=\"원하는 성격, 세계관, 시나리오까지! 직접 만든 캐릭터와 대화. AI 채팅 버블챗에서 시작!\"\n    />\n    <meta\n      name=\"keywords\"\n      content=\"AI, AI채팅, TRPG, AI연애, 미연시, 미소녀, 이상성욕, 캐릭터 채팅, 캐릭터 챗, 버블챗\"\n    />\n    <meta property=\"og:title\" content=\"나만의 AI 채팅의 시작. 버블챗!\" data-rh=\"true\" />\n    <meta property=\"og:url\" content=\"https://bubblechat.ai\" data-rh=\"true\" />\n    <meta property=\"og:site_name\" content=\"나만의 AI 채팅의 시작. 버블챗!\" />\n    <meta\n      property=\"og:description\"\n      content=\"원하는 성격, 세계관, 시나리오까지! 직접 만든 캐릭터와 대화. AI 채팅 버블챗에서 시작!\"\n      data-rh=\"true\"\n    />\n    <meta property=\"og:image\" content=\"/assets/og_img.jpg\" data-rh=\"true\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n\n    <meta name=\"twitter:card\" content=\"summary\" data-rh=\"true\" />\n    <meta name=\"twitter:title\" content=\"나만의 AI 채팅의 시작. 버블챗!\" data-rh=\"true\" />\n    <meta\n      name=\"twitter:description\"\n      content=\"원하는 성격, 세계관, 시나리오까지! 직접 만든 캐릭터와 대화. AI 채팅 버블챗에서 시작!\"\n      data-rh=\"true\"\n    />\n    <meta name=\"twitter:image\" content=\"/assets/og_img.jpg\" data-rh=\"true\" />\n    <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\n    <meta http-equiv=\"Pragma\" content=\"no-cache\" />\n    <meta http-equiv=\"Expires\" content=\"0\" />\n\n    <link rel=\"canonical\" href=\"https://bubblechat.ai\" />\n    <link rel=\"icon\" href=\"/favicon.ico\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n    <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap\" rel=\"stylesheet\" />\n    <link\n      rel=\"stylesheet\"\n      as=\"style\"\n      crossorigin\n      href=\"https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css\"\n    />\n\n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"http://schema.org\",\n        \"@type\": \"WebSite\",\n        \"name\": \"버블챗 : BubbleChat\",\n        \"url\": \"https://bubblechat.ai\",\n        \"sameAs\": [\n          \"https://x.com/bubble_apt\",\n          \"https://apps.apple.com/app/id1637782167\",\n          \"https://play.google.com/store/apps/details?id=com.bubbletap\"\n        ]\n      }\n    </script>\n    <script>\n      var logCss1 =\n        'font-weight: bold; font-size: 50px;color: #06bfd6; text-shadow: 1px 1px 0 rgb(255,255,0) , 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)';\n      var logCss2 = 'color:#00c3dd;';\n      if (window.console != undefined) {\n        setTimeout(console.log.bind(null, '%c  BUBBLECHAT ', logCss1), 0);\n\n        setTimeout(\n          console.log.bind(\n            null,\n            `%c\n      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n      ::::::::::::::::::::::....    ....::::::::::::::::::::::\n      :::::::::::::::::..                   .:::::::::::::::::\n      ::::::::::::::.      ..::::::::::..      .::::::::::::::\n      ::::::::::::.    ..:::::::::::::::::::.    .::::::::::::\n      ::::::::::.    .::::::::::::::::::::::::.    .::::::::::\n      :::::::::    .::::::::::::::::::::::::::::.    :::::::::\n      ::::::::    ::::::::::::::::::::::::::::::::    ::::::::\n      :::::::    ::::::::::::::::::::::::::::::::::    :::::::\n      ::::::.   ::::::::::::::::::::::::::::::::::::    ::::::\n      ::::::   .:::::::::",
+      "response_json": null
+    },
+    {
+      "request_id": "https://bubblechat.ai/assets/js/bubblechatWebServicePath-Bg2Nb8RS.js::GET::1",
+      "url": "https://bubblechat.ai/assets/js/bubblechatWebServicePath-Bg2Nb8RS.js",
+      "path": "/assets/js/bubblechatWebServicePath-Bg2Nb8RS.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "origin": "https://bubblechat.ai",
+        "referer": "https://bubblechat.ai/chat",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/javascript"
+      },
+      "response_body": "import{i as e,n as t,r as n,t as r}from\"./commonWebServicePath-PMb0lr_9.js\";var i={AUTH:r,WEB:t,CHAT:n,CONTEST:e};export{i as t};",
+      "response_json": null
+    },
+    {
+      "request_id": "https://bubblechat.ai/assets/js/ChatRadioButton-DJ9AzUy5.js::GET::4",
+      "url": "https://bubblechat.ai/assets/js/ChatRadioButton-DJ9AzUy5.js",
+      "path": "/assets/js/ChatRadioButton-DJ9AzUy5.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "origin": "https://bubblechat.ai",
+        "referer": "https://bubblechat.ai/chat",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/javascript"
+      },
+      "response_body": "import\"./rolldown-runtime-BPx4qjoT.js\";import{_t as e,cn as t,gn as n,sr as r,vt as i}from\"./vendor-react-DLdEIuee.js\";r();var a=({name:t,value:r,checked:a=!1,size:c=20,handleChange:l,type:u=`radio`})=>{let d=n();return i(o,{size:c,children:[e(s,{type:u,name:t,value:r,checked:a,readOnly:!0,onChange:l}),e(`i`,{style:{width:c,height:c,cursor:`pointer`},children:i(`svg`,{xmlns:`http://www.w3.org/2000/svg`,viewBox:`0 0 21 21`,fill:`none`,children:[e(`path`,{d:`M10.7852 1.5C15.7557 1.5 19.7852 5.52944 19.7852 10.5C19.7852 15.4706 15.7557 19.5 10.7852 19.5C5.81459 19.5 1.78516 15.4706 1.78516 10.5C1.78516 5.52944 5.81459 1.5 10.7852 1.5Z`,stroke:d.color.line.line_3,strokeWidth:`2`}),a&&e(`circle`,{cx:`10.7852`,cy:`10.5`,r:`6.25`,fill:d.color.static.primary})]})})]})},o=t.div`\n  width: ${e=>e.size}px;\n  height: ${e=>e.size}px;\n`,s=t.input`\n  display: none;\n`;export{a as t};",
+      "response_json": null
+    },
+    {
+      "request_id": "https://bubblechat.ai/assets/js/authorizationFeaturesStore-CVXkYj_a.js::GET::2",
+      "url": "https://bubblechat.ai/assets/js/authorizationFeaturesStore-CVXkYj_a.js",
+      "path": "/assets/js/authorizationFeaturesStore-CVXkYj_a.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "origin": "https://bubblechat.ai",
+        "referer": "https://bubblechat.ai/chat",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/javascript"
+      },
+      "response_body": "import{un as e}from\"./vendor-react-DLdEIuee.js\";var t=e()(e=>({isAdminFeatures:!1,isRoleFeatures:!1,isBetaFeatures:!1,isBubbleTapOrAdminFeatures:!1,setIsAdminFeatures:t=>{e(()=>({isAdminFeatures:t}))},setIsRoleFeatures:t=>{e(()=>({isRoleFeatures:t}))},setIsBetaFeatures:t=>{e(()=>({isBetaFeatures:t}))},setIsBubbleTapOrAdminFeatures:t=>{e(()=>({isBubbleTapOrAdminFeatures:t}))}}));export{t};",
+      "response_json": null
+    },
+    {
+      "request_id": "https://bubblechat.ai/assets/js/ChatMainLayout-DPb1T2OK.js::GET::3",
+      "url": "https://bubblechat.ai/assets/js/ChatMainLayout-DPb1T2OK.js",
+      "path": "/assets/js/ChatMainLayout-DPb1T2OK.js",
+      "method": "GET",
+      "resource_type": "script",
+      "request_headers": {
+        "origin": "https://bubblechat.ai",
+        "referer": "https://bubblechat.ai/chat",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/javascript"
+      },
+      "response_body": "import{o as e}from\"./rolldown-runtime-BPx4qjoT.js\";import{Ri as t,pr as n}from\"./vendor-BMuanHfJ.js\";import{Cn as r,En as i,Et as a,In as o,Ot as s,St as c,Tn as l,Yt as u,_t as d,cn as f,dn as p,gn as m,gt as h,it as g,jn as _,kn as ee,nn as v,nr as y,nt as b,qt as x,sr as S,un as C,vn as w,vt as T,wt as E,xn as D,yn as O}from\"./vendor-react-DLdEIuee.js\";import{r as te,t as ne,v as k}from\"./src-BHHkJgUG.js\";import{r as A,t as j}from\"./commonWebServicePath-PMb0lr_9.js\";import{t as M}from\"./bubblechatWebServicePath-Bg2Nb8RS.js\";import{l as N}from\"./popup-CoALcfru.js\";import{n as P,t as re}from\"./checkDevice-_zb50PkU.js\";import{A as ie,D as F,E as ae,Kt as oe,L as I,O as L,R as se,fn as ce,jn as le,k as R,qt as z,wn as ue}from\"./WelcomeModalBody-DojSh8rr.js\";import\"./src-Do6ecuH_.js\";import{t as B}from\"./getServiceName-BCKRhIKD.js\";import{En as de,Gt as fe,K as pe,Tn as V,Y as H,a as U,c as me,en as he,fn as ge,in as _e,n as ve,o as ye,yt as be}from\"./http-HvVlzNUL.js\";import{a as W,s as xe,u as Se}from\"./styles-BStOOn7m.js\";import{$t as Ce,At as we,Bn as Te,C as Ee,Dt as De,Fn as Oe,G as ke,Ht as Ae,In as je,Jt as Me,Kt as Ne,N as Pe,Nn as Fe,Pn as Ie,Qt as Le,S as Re,St as ze,V as Be,Vn as Ve,Vt as He,Yt as G,_n as Ue,an as We,b as K,gn as Ge,hn as Ke,in as qe,kt as Je,ln as Ye,on as Xe,qt as Ze,t as q,un as Qe,v as $e,vt as et,x as tt,xt as nt,y as rt,yt as it,zn as at}from\"./icon-Dic7Y7dU.js\";import{s as ot}from\"./logo-kakao-D5XxkUyt.js\";import{t as st}from\"./authorizationFeaturesStore-CVXkYj_a.js\";import{t as ct}from\"./useService-CHKSCpeR.js\";import{B as lt,U as ut,W as dt,X as ft,Z as J}from\"./TopBannerKeenSlider-C36WKoGv.js\";import{t as pt}from\"./useCheckLogin-CYxcLxRA.js\";import{a as mt,c as ht,l as gt,s as _t,u as vt}from\"./constant-BhTIHwvj.js\";import{t as yt}from\"./MoreMenuWrapper-B3WPTB5z.js\";import{a as bt}from\"./TopBannerSlider-DyK3LSOn.js\";import{t as xt}from\"./WebUpFloatingButton-DGAkB-eh.js\";import{n as St,r as Ct,t as wt}from\"./FetchMyProfile-DUO_AqDe.js\";import{i as Tt}from\"./WebMainLayout-DdOs4ury.js\";import{t as Et}from\"./Seo-D3jyTcTw.js\";import{n as Dt,r as Ot,t as kt}from\"./useSnowEffect-ttjg4Fr3.js\";import{t as At}from\"./useWebview-DYIHUAu0.js\";import{t as jt}from\"./ErrorBoundary-DO40laq3.js\";import{t as Mt}from\"./SwitchButton-C8wNDzF3.js\";import{t as Nt}from\"./campaign-DqoKbIkD.js\";var Y={AUTH:j,CHAT:A},Pt=e(n(),1),Ft=({className:e,size:t=40,rotate:n,flip:r,style:i})=>(m(),d(`i`,{className:(0,Pt.default)(`dds-icon`,e,{flip:r}),style:{width:t,minWidth:t,height:t,transform:`rotate(${n}deg)`,cursor:`default`,...i},children:T(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:t,height:t,viewBox:`0 0 17 17`,fill:`none`,children:[d(`mask`,{id:`mask0_9256_180199`,style:{maskType:`luminance`},maskUnits:`userSpaceOnUse`,x:`0`,y:`0`,width:`17`,height:`17`,children:d(`path`,{d:`M8.42188 0.601562C2.11599 0.601562 0.421875 2.29568 0.421875 8.60156C0.421875 14.9074 2.11599 16.6016 8.42188 16.6016C14.7278 16.6016 16.4219 14.9074 16.4219 8.60156C16.4219 2.29568 14.7278 0.601562 8.42188 0.601562Z`,fill:`white`})}),T(`g`,{mask:`url(#mask0_9256_180199)`,children:[d(`path`,{d:`M6.00635 16.6017H16.422V2.57812L6.00635 9.79381V16.6017Z`,fill:`url(#paint0_linear_9256_180199)`}),d(`path`,{d:`M6.00619 16.6024H0.421875V3.39453L6.00619 9.79453V16.6024Z`,fill:`url(#paint1_linear_9256_180199)`})]}),d(`path`,{d:`M8.42188 0.601562C2.11599 0.601562 0.421875 2.29568 0.421875 8.60156C0.421875 14.9074 2.11599 16.6016 8.42188 16.6016C14.7278 16.6016 16.4219 14.9074 16.4219 8.60156C16.4219 2.29568 14.7278 0.601562 8.42188 0.601562Z`,fill:`url(#paint2_linear_9256_180199)`}),d(`g`,{filter:`url(#filter0_d_9256_180199)`,children:d(`path`,{d:`M8.54747 3.98931L5.66119 5.65205C5.15923 5.93441 4.971 6.59323 5.28473 7.09519C5.56708 7.59715 6.2259 7.78539 6.72787 7.47167L9.17492 6.0599L8.01413 7.31481V12.1776C8.01413 12.7736 8.48473 13.2442 9.08081 13.2442C9.67688 13.2442 10.1475 12.7736 10.1475 12.1776V4.89912C10.1475 4.67951 10.0847 4.49128 9.99061 4.3",
+      "response_json": null
+    }
+  ],
+  "websocket_captures": [],
+  "summary": {
+    "http_endpoints": [
+      {
+        "path": "/assets/js/ChatMainLayout-DPb1T2OK.js",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://bubblechat.ai/assets/js/ChatMainLayout-DPb1T2OK.js",
+        "resource_type": "script",
+        "sample_request_headers": {
+          "origin": "https://bubblechat.ai",
+          "referer": "https://bubblechat.ai/chat",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "import{o as e}from\"./rolldown-runtime-BPx4qjoT.js\";import{Ri as t,pr as n}from\"./vendor-BMuanHfJ.js\";import{Cn as r,En as i,Et as a,In as o,Ot as s,St as c,Tn as l,Yt as u,_t as d,cn as f,dn as p,gn as m,gt as h,it as g,jn as _,kn as ee,nn as v,nr as y,nt as b,qt as x,sr as S,un as C,vn as w,vt as T,wt as E,xn as D,yn as O}from\"./vendor-react-DLdEIuee.js\";import{r as te,t as ne,v as k}from\"./src-BHHkJgUG.js\";import{r as A,t as j}from\"./commonWebServicePath-PMb0lr_9.js\";import{t as M}from\"./bubblechatWebServicePath-Bg2Nb8RS.js\";import{l as N}from\"./popup-CoALcfru.js\";import{n as P,t as re}from\"./checkDevice-_zb50PkU.js\";import{A as ie,D as F,E as ae,Kt as oe,L as I,O as L,R as se,fn as ce,jn as le,k as R,qt as z,wn as ue}from\"./WelcomeModalBody-DojSh8rr.js\";import\"./src-Do6ecuH_.js\";import{t as B}from\"./getServiceName-BCKRhIKD.js\";import{En as de,Gt as fe,K as pe,Tn as V,Y as H,a as U,c as me,en as he,fn as ge,in as _e,n as ve,o as ye,yt as be}from\"./http-HvVlzNUL.js\";import{a as W,s as xe,u as Se}from\"./styles-BStOOn7m.js\";import{$t as Ce,At as we,Bn as Te,C as Ee,Dt as De,Fn as Oe,G as ke,Ht as Ae,In as je,Jt as Me,Kt as Ne,N as Pe,Nn as Fe,Pn as Ie,Qt as Le,S as Re,St as ze,V as Be,Vn as Ve,Vt as He,Yt as G,_n as Ue,an as We,b as K,gn as Ge,hn as Ke,in as qe,kt as Je,ln as Ye,on as Xe,qt as Ze,t as q,un as Qe,v as $e,vt as et,x as tt,xt as nt,y as rt,yt as it,zn as at}from\"./icon-Dic7Y7dU.js\";import{s as ot}from\"./logo-kakao-D5XxkUyt.js\";import{t as st}from\"./authorizationFeaturesStore-CVXkYj_a.js\";import{t as ct}from\"./useService-CHKSCpeR.js\";import{B as lt,U as ut,W as dt,X as ft,Z as J}from\"./TopBannerKeenSlider-C36WKoGv.js\";import{t as pt}from\"./useCheckLogin-CYxcLxRA.js\";import{a as mt,c as ht,l as gt,s as _t,u as vt}from\"./constant-BhTIHwvj.js\";import{t as yt}from\"./MoreMenuWrapper-B3WPTB5z.js\";import{a as bt}from\"./TopBannerSlider-DyK3LSOn.js\";import{t as xt}from\"./WebUpFloatingButton-DGAkB-eh.js\";import{n as St,r as Ct,t as wt}from\"./FetchMyProfile-DUO_AqDe.js\";import{i as Tt}from\"./WebMainLayout-DdOs4ury.js\";import{t as Et}from\"./Seo-D3jyTcTw.js\";import{n as Dt,r as Ot,t as kt}from\"./useSnowEffect-ttjg4Fr3.js\";import{t as At}from\"./useWebview-DYIHUAu0.js\";import{t as jt}from\"./ErrorBoundary-DO40laq3.js\";import{t as Mt}from\"./SwitchButton-C8wNDzF3.js\";import{t as Nt}from\"./campaign-DqoKbIkD.js\";var Y={AUTH:j,CHAT:A},Pt=e(n(),1),Ft=({className:e,size:t=40,rotate:n,flip:r,style:i})=>(m(),d(`i`,{className:(0,Pt.default)(`dds-icon`,e,{flip:r}),style:{width:t,minWidth:t,height:t,transform:`rotate(${n}deg)`,cursor:`default`,...i},children:T(`svg`,{xmlns:`http://www.w3.org/2000/svg`,width:t,height:t,viewBox:`0 0 17 17`,fill:`none`,children:[d(`mask`,{id:`mask0_9256_180199`,style:{maskType:`luminance`},maskUnits:`userSpaceOnUse`,x:`0`,y:`0`,width:`17`,height:`17`,children:d(`path`,{d:`M8.42188 0.601562C2.11599 0.601562 0.421875 2.29568 0.421875 8.60156C0.421875 14.9074 2.11599 16.6016 8.42188 16.6016C14.7278 16.6016 16.4219 14.9074 16.4219 8.60156C16.4219 2.29568 14.7278 0.601562 8.42188 0.601562Z`,fill:`white`})}),T(`g`,{mask:`url(#mask0_9256_180199)`,children:[d(`path`,{d:`M6.00635 16.6017H16.422V2.57812L6.00635 9.79381V16.6017Z`,fill:`url(#paint0_linear_9256_180199)`}),d(`path`,{d:`M6.00619 16.6024H0.421875V3.39453L6.00619 9.79453V16.6024Z`,fill:`url(#paint1_linear_9256_180199)`})]}),d(`path`,{d:`M8.42188 0.601562C2.11599 0.601562 0.421875 2.29568 0.421875 8.60156C0.421875 14.9074 2.11599 16.6016 8.42188 16.6016C14.7278 16.6016 16.4219 14.9074 16.4219 8.60156C16.4219 2.29568 14.7278 0.601562 8.42188 0.601562Z`,fill:`url(#paint2_linear_9256_180199)`}),d(`g`,{filter:`url(#filter0_d_9256_180199)`,children:d(`path`,{d:`M8.54747 3.98931L5.66119 5.65205C5.15923 5.93441 4.971 6.59323 5.28473 7.09519C5.56708 7.59715 6.2259 7.78539 6.72787 7.47167L9.17492 6.0599L8.01413 7.31481V12.1776C8.01413 12.7736 8.48473 13.2442 9.08081 13.2442C9.67688 13.2442 10.1475 12.7736 10.1475 12.1776V4.89912C10.1475 4.67951 10.0847 4.49128 9.99061 4.3"
+      },
+      {
+        "path": "/assets/js/ChatRadioButton-DJ9AzUy5.js",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://bubblechat.ai/assets/js/ChatRadioButton-DJ9AzUy5.js",
+        "resource_type": "script",
+        "sample_request_headers": {
+          "origin": "https://bubblechat.ai",
+          "referer": "https://bubblechat.ai/chat",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "import\"./rolldown-runtime-BPx4qjoT.js\";import{_t as e,cn as t,gn as n,sr as r,vt as i}from\"./vendor-react-DLdEIuee.js\";r();var a=({name:t,value:r,checked:a=!1,size:c=20,handleChange:l,type:u=`radio`})=>{let d=n();return i(o,{size:c,children:[e(s,{type:u,name:t,value:r,checked:a,readOnly:!0,onChange:l}),e(`i`,{style:{width:c,height:c,cursor:`pointer`},children:i(`svg`,{xmlns:`http://www.w3.org/2000/svg`,viewBox:`0 0 21 21`,fill:`none`,children:[e(`path`,{d:`M10.7852 1.5C15.7557 1.5 19.7852 5.52944 19.7852 10.5C19.7852 15.4706 15.7557 19.5 10.7852 19.5C5.81459 19.5 1.78516 15.4706 1.78516 10.5C1.78516 5.52944 5.81459 1.5 10.7852 1.5Z`,stroke:d.color.line.line_3,strokeWidth:`2`}),a&&e(`circle`,{cx:`10.7852`,cy:`10.5`,r:`6.25`,fill:d.color.static.primary})]})})]})},o=t.div`\n  width: ${e=>e.size}px;\n  height: ${e=>e.size}px;\n`,s=t.input`\n  display: none;\n`;export{a as t};"
+      },
+      {
+        "path": "/assets/js/authorizationFeaturesStore-CVXkYj_a.js",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://bubblechat.ai/assets/js/authorizationFeaturesStore-CVXkYj_a.js",
+        "resource_type": "script",
+        "sample_request_headers": {
+          "origin": "https://bubblechat.ai",
+          "referer": "https://bubblechat.ai/chat",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "import{un as e}from\"./vendor-react-DLdEIuee.js\";var t=e()(e=>({isAdminFeatures:!1,isRoleFeatures:!1,isBetaFeatures:!1,isBubbleTapOrAdminFeatures:!1,setIsAdminFeatures:t=>{e(()=>({isAdminFeatures:t}))},setIsRoleFeatures:t=>{e(()=>({isRoleFeatures:t}))},setIsBetaFeatures:t=>{e(()=>({isBetaFeatures:t}))},setIsBubbleTapOrAdminFeatures:t=>{e(()=>({isBubbleTapOrAdminFeatures:t}))}}));export{t};"
+      },
+      {
+        "path": "/assets/js/bubblechatWebServicePath-Bg2Nb8RS.js",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://bubblechat.ai/assets/js/bubblechatWebServicePath-Bg2Nb8RS.js",
+        "resource_type": "script",
+        "sample_request_headers": {
+          "origin": "https://bubblechat.ai",
+          "referer": "https://bubblechat.ai/chat",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "import{i as e,n as t,r as n,t as r}from\"./commonWebServicePath-PMb0lr_9.js\";var i={AUTH:r,WEB:t,CHAT:n,CONTEST:e};export{i as t};"
+      },
+      {
+        "path": "/chat",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://bubblechat.ai/chat",
+        "resource_type": "document",
+        "sample_request_headers": {
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "<!doctype html>\n<html lang=\"ko\">\n  <head>\n    <title>나만의 AI 채팅의 시작. 버블챗!</title>\n    <base href=\"/\" />\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1\" />\n    <meta name=\"theme-color\" content=\"#000000\" />\n    <meta name=\"facebook-domain-verification\" content=\"6q1053gvbl5h4b86393tl3kwqzfa13\" />\n    <meta name=\"google-site-verification\" content=\"dWCqN1mHZbBnt7wM_NBYtIjZ3OBtjcFsXxh5N6CZ26o\" />\n    <meta\n      name=\"description\"\n      content=\"원하는 성격, 세계관, 시나리오까지! 직접 만든 캐릭터와 대화. AI 채팅 버블챗에서 시작!\"\n    />\n    <meta\n      name=\"keywords\"\n      content=\"AI, AI채팅, TRPG, AI연애, 미연시, 미소녀, 이상성욕, 캐릭터 채팅, 캐릭터 챗, 버블챗\"\n    />\n    <meta property=\"og:title\" content=\"나만의 AI 채팅의 시작. 버블챗!\" data-rh=\"true\" />\n    <meta property=\"og:url\" content=\"https://bubblechat.ai\" data-rh=\"true\" />\n    <meta property=\"og:site_name\" content=\"나만의 AI 채팅의 시작. 버블챗!\" />\n    <meta\n      property=\"og:description\"\n      content=\"원하는 성격, 세계관, 시나리오까지! 직접 만든 캐릭터와 대화. AI 채팅 버블챗에서 시작!\"\n      data-rh=\"true\"\n    />\n    <meta property=\"og:image\" content=\"/assets/og_img.jpg\" data-rh=\"true\" />\n    <meta property=\"og:image:width\" content=\"1200\" />\n    <meta property=\"og:image:height\" content=\"630\" />\n\n    <meta name=\"twitter:card\" content=\"summary\" data-rh=\"true\" />\n    <meta name=\"twitter:title\" content=\"나만의 AI 채팅의 시작. 버블챗!\" data-rh=\"true\" />\n    <meta\n      name=\"twitter:description\"\n      content=\"원하는 성격, 세계관, 시나리오까지! 직접 만든 캐릭터와 대화. AI 채팅 버블챗에서 시작!\"\n      data-rh=\"true\"\n    />\n    <meta name=\"twitter:image\" content=\"/assets/og_img.jpg\" data-rh=\"true\" />\n    <meta http-equiv=\"Cache-Control\" content=\"no-cache, no-store, must-revalidate\" />\n    <meta http-equiv=\"Pragma\" content=\"no-cache\" />\n    <meta http-equiv=\"Expires\" content=\"0\" />\n\n    <link rel=\"canonical\" href=\"https://bubblechat.ai\" />\n    <link rel=\"icon\" href=\"/favicon.ico\" />\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\" />\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin />\n    <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap\" rel=\"stylesheet\" />\n    <link\n      rel=\"stylesheet\"\n      as=\"style\"\n      crossorigin\n      href=\"https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css\"\n    />\n\n    <script type=\"application/ld+json\">\n      {\n        \"@context\": \"http://schema.org\",\n        \"@type\": \"WebSite\",\n        \"name\": \"버블챗 : BubbleChat\",\n        \"url\": \"https://bubblechat.ai\",\n        \"sameAs\": [\n          \"https://x.com/bubble_apt\",\n          \"https://apps.apple.com/app/id1637782167\",\n          \"https://play.google.com/store/apps/details?id=com.bubbletap\"\n        ]\n      }\n    </script>\n    <script>\n      var logCss1 =\n        'font-weight: bold; font-size: 50px;color: #06bfd6; text-shadow: 1px 1px 0 rgb(255,255,0) , 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)';\n      var logCss2 = 'color:#00c3dd;';\n      if (window.console != undefined) {\n        setTimeout(console.log.bind(null, '%c  BUBBLECHAT ', logCss1), 0);\n\n        setTimeout(\n          console.log.bind(\n            null,\n            `%c\n      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n      ::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n      ::::::::::::::::::::::....    ....::::::::::::::::::::::\n      :::::::::::::::::..                   .:::::::::::::::::\n      ::::::::::::::.      ..::::::::::..      .::::::::::::::\n      ::::::::::::.    ..:::::::::::::::::::.    .::::::::::::\n      ::::::::::.    .::::::::::::::::::::::::.    .::::::::::\n      :::::::::    .::::::::::::::::::::::::::::.    :::::::::\n      ::::::::    ::::::::::::::::::::::::::::::::    ::::::::\n      :::::::    ::::::::::::::::::::::::::::::::::    :::::::\n      ::::::.   ::::::::::::::::::::::::::::::::::::    ::::::\n      ::::::   .:::::::::"
+      }
+    ],
+    "websocket_connections": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "site_name": "bubblechat.ai",
+  "base_url": "https://bubblechat.ai",
+  "chat_url": "https://bubblechat.ai/chat",
+  "transport": "capture_only",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": null,
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": null,
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": null,
+  "graphql_url": null,
+  "bot_id": null,
+  "required_headers": {
+    "referer": "https://bubblechat.ai/chat",
+    "origin": "https://bubblechat.ai"
+  },
+  "payload_hints": {},
+  "conversation_history_format": null,
+  "token_location": null,
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "['Observed action was send_message_failed, but no corresponding network request (HTTP API call or websocket) appears in the capture summary.', 'To infer the chat API pattern, capture XHR/fetch requests and/or websocket frames during a successful send attempt, or provide the contents of the referenced JS path files (commonWebServicePath-PMb0lr_9.js, http-HvVlzNUL.js, src-BHHkJgUG.js) where base API URLs are likely defined.']"
+}

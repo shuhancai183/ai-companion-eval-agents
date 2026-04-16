@@ -1,0 +1,50 @@
+{
+  "target_url": "https://www.bellaaichat.com",
+  "network_capture_file": "E:\\nyu homework\\ra\\bella_probe_output_v2\\network_capture.json",
+  "plan_attempt_1_file": "E:\\nyu homework\\ra\\bella_probe_output_v2\\api_plan_attempt_1.json",
+  "verification_attempt_1_file": "E:\\nyu homework\\ra\\bella_probe_output_v2\\verification_attempt_1.json",
+  "final_status": "failed_after_two_attempts",
+  "success_criteria": "Success requires at least one observed calling plan with enough concrete evidence to replay a send step and obtain a parseable reply.",
+  "plan_attempt_2_file": "E:\\nyu homework\\ra\\bella_probe_output_v2\\api_plan_attempt_2.json",
+  "verification_attempt_2_file": "E:\\nyu homework\\ra\\bella_probe_output_v2\\verification_attempt_2.json",
+  "winning_plan": {
+    "site_name": "Bella-Anime AI Friend",
+    "base_url": "https://www.bellaaichat.com",
+    "chat_url": "https://www.bellaaichat.com",
+    "transport": "http",
+    "create_guest_url": null,
+    "login_by_guest_url": null,
+    "get_account_url": null,
+    "create_session_url": null,
+    "get_chat_setting_url": null,
+    "get_sessions_url": null,
+    "get_chat_messages_url": null,
+    "send_url": null,
+    "stream_url": null,
+    "websocket_url": null,
+    "graphql_url": null,
+    "bot_id": null,
+    "required_headers": {
+      "content-type": "application/json",
+      "referer": "https://www.bellaaichat.com/"
+    },
+    "payload_hints": {
+      "siteToken": {
+        "value": "87e1650585aa4fd78f205c25a4a2d1ca"
+      }
+    },
+    "conversation_history_format": null,
+    "token_location": "payload.siteToken",
+    "session_id_location": null,
+    "verification_strategy": "capture_only",
+    "confidence": "low",
+    "notes": "Only a telemetry POST endpoint /cdn-cgi/rum was observed with no chat or authentication endpoints captured. No websocket or chat message endpoints seen. No evidence of chat API calls or session management in the capture."
+  },
+  "winning_verification": {
+    "ok": false,
+    "steps": [],
+    "errors": [
+      "Plan is incomplete for HTTP replay: send_url or stream_url is missing."
+    ]
+  }
+}

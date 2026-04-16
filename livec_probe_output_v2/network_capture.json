@@ -1,0 +1,425 @@
+{
+  "target_url": "https://livec.ai/",
+  "current_url": "https://livec.ai/",
+  "page_title": "LiveC AI - Your Perfect AI Girlfriend & Companion",
+  "errors": [],
+  "actions": [
+    {
+      "action": "send_message_failed"
+    }
+  ],
+  "http_captures": [
+    {
+      "request_id": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1776328691260&ver=1.258.2&compression=base64::POST::0",
+      "url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1776328691260&ver=1.258.2&compression=base64",
+      "path": "/flags/",
+      "method": "POST",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+        "content-type": "application/x-www-form-urlencoded"
+      },
+      "request_body": "data=eyJ0b2tlbiI6InBoY19ZazdoeTNRNUliekZDY05iaGRFd2FhWXlOWFdHTEhkZUtrSHRudnBlcWlSIiwiZGlzdGluY3RfaWQiOiIwMTlkOTU3MC1jZTM2LTdmNjgtYmNkMi00ZDAyZTFkMjhjZGUiLCJncm91cHMiOnt9LCJwZXJzb25fcHJvcGVydGllcyI6e319",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "application/json"
+      },
+      "response_body": "{\"errorsWhileComputingFlags\":false,\"flags\":{},\"requestId\":\"f46b83bd-337c-4814-96dd-5352ba167665\",\"evaluatedAt\":1776328690449,\"logs\":{\"captureConsoleLogs\":false},\"surveys\":false,\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null},\"autocapture_opt_out\":false,\"autocaptureExceptions\":false,\"productTours\":false,\"captureDeadClicks\":false,\"sdkVersion\":{\"requested\":\"1\"},\"analytics\":{\"endpoint\":\"/i/v0/e/\"},\"token\":\"phc_Yk7hy3Q5IbzFCcNbhdEwaaYyNXWGLHdeKkHtnvpeqiR\",\"elementsChainAsString\":true,\"hasFeatureFlags\":false,\"conversations\":false,\"heatmaps\":true,\"errorTracking\":{\"autocaptureExceptions\":false,\"suppressionRules\":[]},\"siteApps\":[],\"sessionRecording\":{\"canvasFps\":null,\"canvasQuality\":null,\"consoleLogRecordingEnabled\":true,\"endpoint\":\"/s/\",\"eventTriggers\":[],\"linkedFlag\":null,\"masking\":{\"maskAllInputs\":false},\"minimumDurationMilliseconds\":null,\"networkPayloadCapture\":null,\"recordCanvas\":false,\"recorderVersion\":\"v2\",\"sampleRate\":null,\"scriptConfig\":{\"script\":\"posthog-recorder\"},\"triggerMatchType\":null,\"urlBlocklist\":[],\"urlTriggers\":[],\"version\":1},\"supportedCompression\":[\"gzip\",\"gzip-js\"],\"defaultIdentifiedOnly\":true}",
+      "response_json": {
+        "errorsWhileComputingFlags": false,
+        "flags": {},
+        "requestId": "f46b83bd-337c-4814-96dd-5352ba167665",
+        "evaluatedAt": 1776328690449,
+        "logs": {
+          "captureConsoleLogs": false
+        },
+        "surveys": false,
+        "capturePerformance": {
+          "network_timing": true,
+          "web_vitals": true,
+          "web_vitals_allowed_metrics": null
+        },
+        "autocapture_opt_out": false,
+        "autocaptureExceptions": false,
+        "productTours": false,
+        "captureDeadClicks": false,
+        "sdkVersion": {
+          "requested": "1"
+        },
+        "analytics": {
+          "endpoint": "/i/v0/e/"
+        },
+        "token": "phc_Yk7hy3Q5IbzFCcNbhdEwaaYyNXWGLHdeKkHtnvpeqiR",
+        "elementsChainAsString": true,
+        "hasFeatureFlags": false,
+        "conversations": false,
+        "heatmaps": true,
+        "errorTracking": {
+          "autocaptureExceptions": false,
+          "suppressionRules": []
+        },
+        "siteApps": [],
+        "sessionRecording": {
+          "canvasFps": null,
+          "canvasQuality": null,
+          "consoleLogRecordingEnabled": true,
+          "endpoint": "/s/",
+          "eventTriggers": [],
+          "linkedFlag": null,
+          "masking": {
+            "maskAllInputs": false
+          },
+          "minimumDurationMilliseconds": null,
+          "networkPayloadCapture": null,
+          "recordCanvas": false,
+          "recorderVersion": "v2",
+          "sampleRate": null,
+          "scriptConfig": {
+            "script": "posthog-recorder"
+          },
+          "triggerMatchType": null,
+          "urlBlocklist": [],
+          "urlTriggers": [],
+          "version": 1
+        },
+        "supportedCompression": [
+          "gzip",
+          "gzip-js"
+        ],
+        "defaultIdentifiedOnly": true
+      }
+    },
+    {
+      "request_id": "https://www.google-analytics.com/g/collect?v=2&tid=G-MPNB1QXXM2&gtm=45je64e1h1v9183346622za200zd9183346622&_p=1776328691297&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=218795599.1776328691&frm=0&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616985~115938466~115938469~117266401~118289195&sid=1776328691&sct=1&seg=0&dl=https%3A%2F%2Flivec.ai%2F&dt=LiveC%20AI%20-%20Your%20Perfect%20AI%20Girlfriend%20%26%20Companion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3000::POST::1",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MPNB1QXXM2&gtm=45je64e1h1v9183346622za200zd9183346622&_p=1776328691297&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=218795599.1776328691&frm=0&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616985~115938466~115938469~117266401~118289195&sid=1776328691&sct=1&seg=0&dl=https%3A%2F%2Flivec.ai%2F&dt=LiveC%20AI%20-%20Your%20Perfect%20AI%20Girlfriend%20%26%20Companion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3000",
+      "path": "/g/collect",
+      "method": "POST",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 204,
+      "response_headers": {
+        "content-type": "text/plain"
+      },
+      "response_body": "",
+      "response_json": null
+    },
+    {
+      "request_id": "https://livec.ai/general?_rsc=tujbn::GET::2",
+      "url": "https://livec.ai/general?_rsc=tujbn",
+      "path": "/general",
+      "method": "GET",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/x-component"
+      },
+      "response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[82670,[\"5094\",\"static/chunks/app/(home)/general/page-57225e5a21e0019c.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"general\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"general\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"general\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb",
+      "response_json": null
+    },
+    {
+      "request_id": "https://livec.ai/features?_rsc=tujbn::GET::3",
+      "url": "https://livec.ai/features?_rsc=tujbn",
+      "path": "/features",
+      "method": "GET",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/x-component"
+      },
+      "response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[95341,[\"3269\",\"static/chunks/app/(home)/features/page-f27eddc1f4988fd3.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"features\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"features\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"features\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-69858",
+      "response_json": null
+    },
+    {
+      "request_id": "https://livec.ai/technical?_rsc=tujbn::GET::6",
+      "url": "https://livec.ai/technical?_rsc=tujbn",
+      "path": "/technical",
+      "method": "GET",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/x-component"
+      },
+      "response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[85565,[\"153\",\"static/chunks/app/(home)/technical/page-713f205647efec7c.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"technical\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"technical\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"technical\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-69",
+      "response_json": null
+    },
+    {
+      "request_id": "https://livec.ai/privacy?_rsc=tujbn::GET::4",
+      "url": "https://livec.ai/privacy?_rsc=tujbn",
+      "path": "/privacy",
+      "method": "GET",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/x-component"
+      },
+      "response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[17694,[\"8910\",\"static/chunks/app/(home)/privacy/page-e1ec3124d3792d1b.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"privacy\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"privacy\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"privacy\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb",
+      "response_json": null
+    },
+    {
+      "request_id": "https://livec.ai/terms?_rsc=tujbn::GET::5",
+      "url": "https://livec.ai/terms?_rsc=tujbn",
+      "path": "/terms",
+      "method": "GET",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/x-component"
+      },
+      "response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[78025,[\"465\",\"static/chunks/app/(home)/terms/page-b0aa3100fd20911c.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"terms\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"terms\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"terms\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb4b89e18.j",
+      "response_json": null
+    },
+    {
+      "request_id": "https://livec.ai/support?_rsc=tujbn::GET::7",
+      "url": "https://livec.ai/support?_rsc=tujbn",
+      "path": "/support",
+      "method": "GET",
+      "resource_type": "fetch",
+      "request_headers": {
+        "referer": "https://livec.ai/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+      },
+      "request_body": "",
+      "request_json": null,
+      "status": 200,
+      "response_headers": {
+        "content-type": "text/x-component"
+      },
+      "response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[70601,[\"5197\",\"static/chunks/app/(home)/support/page-b88b321226d05344.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"support\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"support\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"support\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb",
+      "response_json": null
+    }
+  ],
+  "websocket_captures": [],
+  "summary": {
+    "http_endpoints": [
+      {
+        "path": "/features",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://livec.ai/features?_rsc=tujbn",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[95341,[\"3269\",\"static/chunks/app/(home)/features/page-f27eddc1f4988fd3.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"features\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"features\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"features\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-69858"
+      },
+      {
+        "path": "/flags/",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://us.i.posthog.com/flags/?v=2&config=true&ip=0&_=1776328691260&ver=1.258.2&compression=base64",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+          "content-type": "application/x-www-form-urlencoded"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "data=eyJ0b2tlbiI6InBoY19ZazdoeTNRNUliekZDY05iaGRFd2FhWXlOWFdHTEhkZUtrSHRudnBlcWlSIiwiZGlzdGluY3RfaWQiOiIwMTlkOTU3MC1jZTM2LTdmNjgtYmNkMi00ZDAyZTFkMjhjZGUiLCJncm91cHMiOnt9LCJwZXJzb25fcHJvcGVydGllcyI6e319",
+        "sample_status": 200,
+        "sample_response_json": {
+          "errorsWhileComputingFlags": false,
+          "flags": {},
+          "requestId": "f46b83bd-337c-4814-96dd-5352ba167665",
+          "evaluatedAt": 1776328690449,
+          "logs": {
+            "captureConsoleLogs": false
+          },
+          "surveys": false,
+          "capturePerformance": {
+            "network_timing": true,
+            "web_vitals": true,
+            "web_vitals_allowed_metrics": null
+          },
+          "autocapture_opt_out": false,
+          "autocaptureExceptions": false,
+          "productTours": false,
+          "captureDeadClicks": false,
+          "sdkVersion": {
+            "requested": "1"
+          },
+          "analytics": {
+            "endpoint": "/i/v0/e/"
+          },
+          "token": "phc_Yk7hy3Q5IbzFCcNbhdEwaaYyNXWGLHdeKkHtnvpeqiR",
+          "elementsChainAsString": true,
+          "hasFeatureFlags": false,
+          "conversations": false,
+          "heatmaps": true,
+          "errorTracking": {
+            "autocaptureExceptions": false,
+            "suppressionRules": []
+          },
+          "siteApps": [],
+          "sessionRecording": {
+            "canvasFps": null,
+            "canvasQuality": null,
+            "consoleLogRecordingEnabled": true,
+            "endpoint": "/s/",
+            "eventTriggers": [],
+            "linkedFlag": null,
+            "masking": {
+              "maskAllInputs": false
+            },
+            "minimumDurationMilliseconds": null,
+            "networkPayloadCapture": null,
+            "recordCanvas": false,
+            "recorderVersion": "v2",
+            "sampleRate": null,
+            "scriptConfig": {
+              "script": "posthog-recorder"
+            },
+            "triggerMatchType": null,
+            "urlBlocklist": [],
+            "urlTriggers": [],
+            "version": 1
+          },
+          "supportedCompression": [
+            "gzip",
+            "gzip-js"
+          ],
+          "defaultIdentifiedOnly": true
+        },
+        "sample_response_body": "{\"errorsWhileComputingFlags\":false,\"flags\":{},\"requestId\":\"f46b83bd-337c-4814-96dd-5352ba167665\",\"evaluatedAt\":1776328690449,\"logs\":{\"captureConsoleLogs\":false},\"surveys\":false,\"capturePerformance\":{\"network_timing\":true,\"web_vitals\":true,\"web_vitals_allowed_metrics\":null},\"autocapture_opt_out\":false,\"autocaptureExceptions\":false,\"productTours\":false,\"captureDeadClicks\":false,\"sdkVersion\":{\"requested\":\"1\"},\"analytics\":{\"endpoint\":\"/i/v0/e/\"},\"token\":\"phc_Yk7hy3Q5IbzFCcNbhdEwaaYyNXWGLHdeKkHtnvpeqiR\",\"elementsChainAsString\":true,\"hasFeatureFlags\":false,\"conversations\":false,\"heatmaps\":true,\"errorTracking\":{\"autocaptureExceptions\":false,\"suppressionRules\":[]},\"siteApps\":[],\"sessionRecording\":{\"canvasFps\":null,\"canvasQuality\":null,\"consoleLogRecordingEnabled\":true,\"endpoint\":\"/s/\",\"eventTriggers\":[],\"linkedFlag\":null,\"masking\":{\"maskAllInputs\":false},\"minimumDurationMilliseconds\":null,\"networkPayloadCapture\":null,\"recordCanvas\":false,\"recorderVersion\":\"v2\",\"sampleRate\":null,\"scriptConfig\":{\"script\":\"posthog-recorder\"},\"triggerMatchType\":null,\"urlBlocklist\":[],\"urlTriggers\":[],\"version\":1},\"supportedCompression\":[\"gzip\",\"gzip-js\"],\"defaultIdentifiedOnly\":true}"
+      },
+      {
+        "path": "/g/collect",
+        "count": 1,
+        "method": "POST",
+        "sample_url": "https://www.google-analytics.com/g/collect?v=2&tid=G-MPNB1QXXM2&gtm=45je64e1h1v9183346622za200zd9183346622&_p=1776328691297&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=218795599.1776328691&frm=0&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uam=&uamb=0&uap=Windows&uapv=10.0.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616985~115938466~115938469~117266401~118289195&sid=1776328691&sct=1&seg=0&dl=https%3A%2F%2Flivec.ai%2F&dt=LiveC%20AI%20-%20Your%20Perfect%20AI%20Girlfriend%20%26%20Companion&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=3000",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 204,
+        "sample_response_json": null,
+        "sample_response_body": ""
+      },
+      {
+        "path": "/general",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://livec.ai/general?_rsc=tujbn",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[82670,[\"5094\",\"static/chunks/app/(home)/general/page-57225e5a21e0019c.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"general\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"general\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"general\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb"
+      },
+      {
+        "path": "/privacy",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://livec.ai/privacy?_rsc=tujbn",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[17694,[\"8910\",\"static/chunks/app/(home)/privacy/page-e1ec3124d3792d1b.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"privacy\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"privacy\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"privacy\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb"
+      },
+      {
+        "path": "/support",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://livec.ai/support?_rsc=tujbn",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[70601,[\"5197\",\"static/chunks/app/(home)/support/page-b88b321226d05344.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"support\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"support\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"support\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb"
+      },
+      {
+        "path": "/technical",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://livec.ai/technical?_rsc=tujbn",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[85565,[\"153\",\"static/chunks/app/(home)/technical/page-713f205647efec7c.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"technical\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"technical\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"technical\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-69"
+      },
+      {
+        "path": "/terms",
+        "count": 1,
+        "method": "GET",
+        "sample_url": "https://livec.ai/terms?_rsc=tujbn",
+        "resource_type": "fetch",
+        "sample_request_headers": {
+          "referer": "https://livec.ai/",
+          "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+        },
+        "sample_request_json": null,
+        "sample_request_body": "",
+        "sample_status": 200,
+        "sample_response_json": null,
+        "sample_response_body": "1:\"$Sreact.fragment\"\n3:I[47132,[],\"\"]\n4:I[75082,[],\"\"]\n5:I[39065,[],\"ClientPageRoot\"]\n6:I[78025,[\"465\",\"static/chunks/app/(home)/terms/page-b0aa3100fd20911c.js\"],\"default\"]\n9:I[50700,[],\"OutletBoundary\"]\nb:I[87748,[],\"AsyncMetadataOutlet\"]\nd:I[50700,[],\"ViewportBoundary\"]\nf:I[50700,[],\"MetadataBoundary\"]\n10:\"$Sreact.suspense\"\n12:I[71256,[],\"\"]\n:HL[\"/_next/static/media/028c0d39d2e8f589-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/5b01f339abf2f1a5.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/css/13a193a9a1645d3f.css\",\"style\"]\n0:{\"P\":null,\"b\":\"5Yms1lb5TBFeGqau4nkWG\",\"p\":\"\",\"c\":[\"\",\"terms\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"(home)\",{\"children\":[\"terms\",{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/13a193a9a1645d3f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],\"$L2\"]}],{\"children\":[\"(home)\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"main\",null,{\"className\":\"flex min-h-screen flex-col\",\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]]}],{\"children\":[\"terms\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L5\",null,{\"Component\":\"$6\",\"searchParams\":{},\"params\":{},\"promises\":[\"$@7\",\"$@8\"]}],null,[\"$\",\"$L9\",null,{\"children\":[\"$La\",[\"$\",\"$Lb\",null,{\"promise\":\"$@c\"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[[\"$\",\"$Ld\",null,{\"children\":\"$Le\"}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]],[\"$\",\"$Lf\",null,{\"children\":[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$10\",null,{\"fallback\":null,\"children\":\"$L11\"}]}]}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$12\",[]],\"s\":false,\"S\":true}\n7:{}\n8:\"$0:f:0:1:2:children:2:children:2:children:1:props:children:0:props:params\"\n13:I[90322,[\"803\",\"static/chunks/cd24890f-7fa43dd5724d4d3b.js\",\"9386\",\"static/chunks/7d384bb9-fd50ff7e4c009590.js\",\"2965\",\"static/chunks/2965-30f6752eeedeea88.js\",\"3270\",\"static/chunks/3270-d9a63068240cca8b.js\",\"959\",\"static/chunks/959-bb5dd7980e15bbfe.js\",\"7327\",\"static/chunks/7327-422cfcad5aa6ebee.js\",\"887\",\"static/chunks/887-0ae9f746e782e9c8.js\",\"3680\",\"static/chunks/3680-16058781a260c1a8.js\",\"513\",\"static/chunks/513-299fea03769615f5.js\",\"3469\",\"static/chunks/3469-6985800eb4b89e18.j"
+      }
+    ],
+    "websocket_connections": []
+  }
+}

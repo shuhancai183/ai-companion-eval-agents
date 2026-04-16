@@ -1,0 +1,68 @@
+{
+  "target_url": "https://beta.dopple.ai/",
+  "network_capture_file": "E:\\nyu homework\\ra\\dopple_probe_output_v2\\network_capture.json",
+  "plan_attempt_1_file": "E:\\nyu homework\\ra\\dopple_probe_output_v2\\api_plan_attempt_1.json",
+  "verification_attempt_1_file": "E:\\nyu homework\\ra\\dopple_probe_output_v2\\verification_attempt_1.json",
+  "final_status": "failed_after_two_attempts",
+  "success_criteria": "Success requires at least one observed calling plan with enough concrete evidence to replay a send step and obtain a parseable reply.",
+  "plan_attempt_2_file": "E:\\nyu homework\\ra\\dopple_probe_output_v2\\api_plan_attempt_2.json",
+  "verification_attempt_2_file": "E:\\nyu homework\\ra\\dopple_probe_output_v2\\verification_attempt_2.json",
+  "winning_plan": {
+    "site_name": "Dopple.ai",
+    "base_url": "https://dopple-be-232946234386.us-central1.run.app",
+    "chat_url": "https://beta.dopple.ai/messages",
+    "transport": "http",
+    "create_guest_url": null,
+    "login_by_guest_url": null,
+    "get_account_url": "https://dopple-be-232946234386.us-central1.run.app/api/users/undefined",
+    "create_session_url": "https://dopple-be-232946234386.us-central1.run.app/api/engagements",
+    "get_chat_setting_url": null,
+    "get_sessions_url": null,
+    "get_chat_messages_url": "https://brain.dopple.ai/get_user_chats",
+    "send_url": null,
+    "stream_url": null,
+    "websocket_url": null,
+    "graphql_url": null,
+    "bot_id": null,
+    "required_headers": {
+      "authorization": "Bearer"
+    },
+    "payload_hints": {
+      "create_session": {
+        "method": "POST",
+        "url": "https://dopple-be-232946234386.us-central1.run.app/api/engagements",
+        "body": {
+          "page": "string",
+          "device": "string"
+        }
+      },
+      "get_account": {
+        "method": "GET",
+        "url": "https://dopple-be-232946234386.us-central1.run.app/api/users/{user_id}",
+        "headers": {
+          "authorization": "Bearer {token}"
+        }
+      },
+      "get_chat_messages": {
+        "method": "POST",
+        "url": "https://brain.dopple.ai/get_user_chats",
+        "body": {
+          "username": "string"
+        }
+      }
+    },
+    "conversation_history_format": "unknown",
+    "token_location": "authorization header",
+    "session_id_location": "response JSON field 'sessionId' from /api/engagements",
+    "verification_strategy": "http_json",
+    "confidence": "medium",
+    "notes": "The app uses HTTP POST to /api/engagements to create a session and receives a sessionId. User details are fetched via GET /api/users/{user_id} with Bearer token. Chat messages are fetched via POST to https://brain.dopple.ai/get_user_chats with username in JSON body. No websocket or streaming endpoints observed. Send message endpoint not observed in captures."
+  },
+  "winning_verification": {
+    "ok": false,
+    "steps": [],
+    "errors": [
+      "Plan is incomplete for HTTP replay: send_url or stream_url is missing."
+    ]
+  }
+}

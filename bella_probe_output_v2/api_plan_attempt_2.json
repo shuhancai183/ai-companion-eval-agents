@@ -1,0 +1,39 @@
+{
+  "site_name": "bellaaichat.com (Bella-Anime AI Friend)",
+  "base_url": "https://www.bellaaichat.com",
+  "chat_url": "https://www.bellaaichat.com/#features",
+  "transport": "capture_only",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": null,
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": null,
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": null,
+  "graphql_url": null,
+  "bot_id": null,
+  "required_headers": {
+    "referer": "https://www.bellaaichat.com/",
+    "content-type": "application/json"
+  },
+  "payload_hints": {
+    "observed_only": {
+      "value": "Only Cloudflare RUM beacon observed; not related to chat."
+    },
+    "rum_siteToken": {
+      "value": "87e1650585aa4fd78f205c25a4a2d1ca"
+    },
+    "rum_endpoint": {
+      "value": "/cdn-cgi/rum"
+    }
+  },
+  "conversation_history_format": null,
+  "token_location": null,
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "Network capture only shows POST https://www.bellaaichat.com/cdn-cgi/rum (Cloudflare Real User Monitoring) returning 204. No chat API endpoints, auth/session endpoints, or websocket traffic were observed; send_message action failed with no corresponding request captured."
+}

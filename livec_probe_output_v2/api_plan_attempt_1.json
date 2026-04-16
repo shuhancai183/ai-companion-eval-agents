@@ -1,0 +1,29 @@
+{
+  "site_name": "LiveC AI",
+  "base_url": "https://livec.ai",
+  "chat_url": "https://livec.ai/",
+  "transport": "http",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": null,
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": null,
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": null,
+  "graphql_url": null,
+  "bot_id": null,
+  "required_headers": {
+    "referer": "https://livec.ai/",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+  },
+  "payload_hints": {},
+  "conversation_history_format": null,
+  "token_location": null,
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "No API endpoints related to chat or messaging were observed in the capture. Only static page fetches and analytics endpoints were seen. No websocket connections were established. The send_message action failed and no corresponding send or stream endpoints were captured."
+}

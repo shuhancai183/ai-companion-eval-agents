@@ -1,0 +1,65 @@
+{
+  "site_name": "Yollo AI",
+  "base_url": "https://www.yollo.ai",
+  "chat_url": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+  "create_guest_url": "https://www.yollo.ai/api/auth/createGuest",
+  "login_by_guest_url": "https://www.yollo.ai/api/auth/loginByGuest",
+  "get_account_url": "https://www.yollo.ai/api/auth/getAccount",
+  "create_session_url": "https://www.yollo.ai/api/msg/createSession?botId=148463",
+  "get_chat_setting_url": "https://www.yollo.ai/api/msg/getChatSettingByBotId/148463",
+  "get_sessions_url": "https://www.yollo.ai/api/msg/getSessions",
+  "get_chat_messages_url": "https://www.yollo.ai/api/msg/getChatMessages",
+  "send_url": "https://www.yollo.ai/api/msg/send",
+  "stream_url": "https://www.yollo.ai/chat-stream",
+  "bot_id": "148463",
+  "required_headers": {
+    "x-platform": "web",
+    "x-version": "999.0.0",
+    "referer": "https://www.yollo.ai/chat/Asumi-the-Maid-148463",
+    "x-language": "en",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36",
+    "accept": "application/json, text/plain, */*",
+    "x-finger": "8181d5ef7a6d9232bb502fb92d162e67",
+    "content-type": "application/json",
+    "x-auth-token": "<idToken from loginByGuest response>",
+    "x-no-show-msg-handle": "true"
+  },
+  "payload_hints": {
+    "create_guest": {},
+    "login_by_guest": {
+      "guestUid": "string",
+      "guestKey": "string"
+    },
+    "create_session": {},
+    "get_sessions": {
+      "page": 1,
+      "size": 20
+    },
+    "get_chat_messages": {
+      "chatSessionId": "number",
+      "size": 50
+    },
+    "send": {
+      "sessionId": "number",
+      "msg": "string"
+    },
+    "stream": {
+      "message": "string",
+      "sessionId": "string",
+      "conversationHistory": [
+        {
+          "role": "assistant",
+          "content": "string"
+        }
+      ],
+      "userToken": "string",
+      "userLocale": "en",
+      "isRegenerate": false,
+      "isSafeMode": false
+    }
+  },
+  "conversation_history_format": "[{\"role\": \"assistant\", \"content\": \"string\"}]",
+  "token_location": "loginByGuest response JSON data.idToken",
+  "session_id_location": "createSession response JSON data.id",
+  "notes": "Guest session is created by POST /api/auth/createGuest with no body, then login by POST /api/auth/loginByGuest with guestUid and guestKey from createGuest response. The idToken from loginByGuest is used as x-auth-token header for subsequent authenticated requests. A chat session is created by POST /api/msg/createSession with botId query param. Chat messages are fetched by POST /api/msg/getChatMessages with chatSessionId. Sending a message uses POST /api/msg/send with sessionId and msg. Streaming reply uses POST /chat-stream with message, sessionId (string), conversationHistory array, userToken (idToken), and userLocale. The x-finger header value is constant in captures but its generation is unknown. The getChatSettingByBotId returns null data and may be optional. The conversationHistory format is an array of objects with role and content keys."
+}

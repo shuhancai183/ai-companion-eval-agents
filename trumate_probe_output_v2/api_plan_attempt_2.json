@@ -1,0 +1,29 @@
+{
+  "site_name": "TruMate",
+  "base_url": "https://sc-res.aicreativelabs.co",
+  "chat_url": "https://sc-res.aicreativelabs.co/chat/index.html",
+  "transport": "unknown",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": null,
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": null,
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": null,
+  "graphql_url": null,
+  "bot_id": null,
+  "required_headers": {
+    "referer": "https://sc-res.aicreativelabs.co/chat/index.html",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/145.0.7632.6 Safari/537.36"
+  },
+  "payload_hints": {},
+  "conversation_history_format": null,
+  "token_location": null,
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "Captured traffic contains only static asset GETs under /chat (css/js/fonts/images) and the HTML document. No API/XHR/fetch requests and no websocket connections were observed during the send_message action, so no concrete evidence of chat backend endpoints (send/stream/session/auth) is available from this capture."
+}

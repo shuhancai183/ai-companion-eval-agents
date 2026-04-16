@@ -1,0 +1,43 @@
+{
+  "target_url": "https://heykavana.com",
+  "network_capture_file": "E:\\nyu homework\\ra\\kavana_probe_output_v2\\network_capture.json",
+  "plan_attempt_1_file": "E:\\nyu homework\\ra\\kavana_probe_output_v2\\api_plan_attempt_1.json",
+  "verification_attempt_1_file": "E:\\nyu homework\\ra\\kavana_probe_output_v2\\verification_attempt_1.json",
+  "final_status": "failed_after_two_attempts",
+  "success_criteria": "Success requires at least one observed calling plan with enough concrete evidence to replay a send step and obtain a parseable reply.",
+  "plan_attempt_2_file": "E:\\nyu homework\\ra\\kavana_probe_output_v2\\api_plan_attempt_2.json",
+  "verification_attempt_2_file": "E:\\nyu homework\\ra\\kavana_probe_output_v2\\verification_attempt_2.json",
+  "winning_plan": {
+    "site_name": "Kavana",
+    "base_url": "https://heykavana.com",
+    "chat_url": "https://heykavana.com",
+    "transport": "none",
+    "create_guest_url": null,
+    "login_by_guest_url": null,
+    "get_account_url": null,
+    "create_session_url": null,
+    "get_chat_setting_url": null,
+    "get_sessions_url": null,
+    "get_chat_messages_url": null,
+    "send_url": null,
+    "stream_url": null,
+    "websocket_url": null,
+    "graphql_url": null,
+    "bot_id": null,
+    "required_headers": {},
+    "payload_hints": {},
+    "conversation_history_format": null,
+    "token_location": null,
+    "session_id_location": null,
+    "verification_strategy": "capture_only",
+    "confidence": "low",
+    "notes": "No network activity observed during interaction; no API endpoints or websocket connections captured."
+  },
+  "winning_verification": {
+    "ok": false,
+    "steps": [],
+    "errors": [
+      "Plan is incomplete for HTTP replay: send_url or stream_url is missing."
+    ]
+  }
+}

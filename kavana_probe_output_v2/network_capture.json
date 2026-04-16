@@ -1,0 +1,22 @@
+{
+  "target_url": "https://heykavana.com",
+  "current_url": "https://heykavana.com/",
+  "page_title": "Kavana - Discover and Chat with AI Characters",
+  "errors": [],
+  "actions": [
+    {
+      "action": "click_hint",
+      "hint": "chat",
+      "frame_url": "https://heykavana.com/"
+    },
+    {
+      "action": "send_message_failed"
+    }
+  ],
+  "http_captures": [],
+  "websocket_captures": [],
+  "summary": {
+    "http_endpoints": [],
+    "websocket_connections": []
+  }
+}

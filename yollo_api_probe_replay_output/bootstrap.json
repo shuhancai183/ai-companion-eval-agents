@@ -1,0 +1,114 @@
+{
+  "create_guest": {
+    "code": "200",
+    "data": {
+      "guestKey": "$2a$10$ffsW7DOdQbFnH58y.RNbde7IIKyTwNBrPkbmCgwc7pP3eyqJ/sXve",
+      "guestUid": "b359f673-0995-4c05-b2e8-d956fdcba694"
+    },
+    "errorCode": null,
+    "fieldErrors": [],
+    "msg": "操作成功"
+  },
+  "login_by_guest": {
+    "code": "200",
+    "data": {
+      "idToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIzMjM5MDcxIiwic3ViIjoiYjM1OWY2NzMtMDk5NS00YzA1LWIyZTgtZDk1NmZkY2JhNjk0IiwiYXV0aCI6IiIsImV4cCI6MTc3ODkxNzYyNX0.tKJIUWZgE5LaUuQnqLuAdXWFQOoDL0aR9Pju6amZvyE"
+    },
+    "errorCode": null,
+    "fieldErrors": [],
+    "msg": "操作成功"
+  },
+  "get_account": {
+    "code": "200",
+    "data": {
+      "abTest": "BotDetail,BotMatchDetail,",
+      "avatar": "https://cdn.yollo.ai/prod/default_user_avatar/guest.jpg?Expires=1776930425&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=5l0pCgNtxoXn9yL3IJMHt474RBM%3D",
+      "backgroundImage": null,
+      "birthday": null,
+      "canAccessVip": false,
+      "createBotWeeklyLimit": 2,
+      "createBotWeeklyLimitTotal": 2,
+      "createTime": null,
+      "email": null,
+      "id": 3239071,
+      "integral": 0,
+      "isGuest": true,
+      "isVipRenew": false,
+      "mobile": null,
+      "nickname": "Guest",
+      "remarks": null,
+      "sex": 3,
+      "shortUid": "s1n2cwmVTAWy6NlW_cumlA",
+      "status": 2,
+      "timUserId": null,
+      "timUserSig": null,
+      "uid": "b359f673-0995-4c05-b2e8-d956fdcba694",
+      "username": "b359f673-0995-4c05-b2e8-d956fdcba694",
+      "vipExpireDate": null,
+      "vipLevel": null,
+      "vipLimitDays": 0,
+      "vipType": null
+    },
+    "errorCode": null,
+    "fieldErrors": [],
+    "msg": "操作成功"
+  },
+  "create_session": {
+    "code": "200",
+    "data": {
+      "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930425&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dxmuD4QhV43mwRIQ3beypk5iAM4%3D",
+      "botDescription": null,
+      "botId": 148463,
+      "botName": "Asumi the Maid",
+      "createTime": "2026-04-16 15:47:05",
+      "id": 4394304,
+      "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+      "lastMsgType": 2,
+      "unreadCount": 0,
+      "updateTime": "2026-04-16 15:47:05",
+      "userId": 3239071
+    },
+    "errorCode": null,
+    "fieldErrors": [],
+    "msg": "操作成功"
+  },
+  "get_chat_setting": {
+    "code": "200",
+    "data": null,
+    "errorCode": null,
+    "fieldErrors": [],
+    "msg": "操作成功"
+  },
+  "get_sessions": {
+    "code": "200",
+    "data": {
+      "countId": null,
+      "current": 1,
+      "maxLimit": null,
+      "optimizeCountSql": true,
+      "orders": [],
+      "pages": 1,
+      "records": [
+        {
+          "botAvatar": "https://cdn.yollo.ai/prod/bot_icon/202503190157347634693.webp?Expires=1776930425&OSSAccessKeyId=LTAI5t8iYqpr98kYtoS6ivdH&Signature=dxmuD4QhV43mwRIQ3beypk5iAM4%3D",
+          "botDescription": null,
+          "botId": 148463,
+          "botName": "Asumi the Maid",
+          "createTime": "2026-04-16 15:47:06",
+          "id": 4394304,
+          "lastMsgContent": "/bot_icon/202503190157347634693.webp",
+          "lastMsgType": 2,
+          "unreadCount": 0,
+          "updateTime": "2026-04-16 15:47:06",
+          "userId": 3239071
+        }
+      ],
+      "searchCount": true,
+      "size": 20,
+      "total": 1
+    },
+    "errorCode": null,
+    "fieldErrors": [],
+    "msg": "操作成功"
+  }
+}

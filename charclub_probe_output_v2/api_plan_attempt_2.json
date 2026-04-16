@@ -1,0 +1,68 @@
+{
+  "site_name": "CharClub AI",
+  "base_url": "https://chat.charclub.ai",
+  "chat_url": "https://chat.charclub.ai",
+  "transport": "unknown (HTTP JSON endpoints observed; config advertises Centrifugo websocket wss://charclub.ahihoapis.com but no websocket captured)",
+  "create_guest_url": null,
+  "login_by_guest_url": null,
+  "get_account_url": "https://chat.charclub.ai/api/v1/users/me/characters/",
+  "create_session_url": null,
+  "get_chat_setting_url": null,
+  "get_sessions_url": null,
+  "get_chat_messages_url": null,
+  "send_url": null,
+  "stream_url": null,
+  "websocket_url": "wss://charclub.ahihoapis.com",
+  "graphql_url": null,
+  "bot_id": "4419022397577621504",
+  "required_headers": {
+    "accept": "application/json, text/plain, */*",
+    "referer": "https://chat.charclub.ai/",
+    "user-agent": "Mozilla/5.0 ..."
+  },
+  "payload_hints": {
+    "search_characters": {
+      "method": "GET",
+      "url": "https://chat.charclub.ai/api/v1/characters:search/?q={query}&pageSize=21",
+      "notes": "Observed 308 redirect from no-trailing-slash to trailing-slash variant."
+    },
+    "get_trending_characters": {
+      "method": "GET",
+      "url": "https://chat.charclub.ai/api/v1/characters:getTrendingCharacters/",
+      "notes": "Observed 308 redirect from no-trailing-slash to trailing-slash variant."
+    },
+    "get_character_reviews": {
+      "method": "GET",
+      "url": "https://chat.charclub.ai/api/v1/characters/{characterId}/reviews/?pageSize=10&orderBy=updateTime:desc"
+    },
+    "config": {
+      "method": "GET",
+      "url": "https://chat.charclub.ai/api/config/",
+      "response_fields": [
+        "CENTRIFUGO_URL",
+        "DISCORD_BOT_API_URL",
+        "FIREBASE_CONFIG",
+        "NEXT_PUBLIC_BASE_URL",
+        "SERVICE_VERSION"
+      ]
+    },
+    "auth_required_example": {
+      "method": "GET",
+      "url": "https://chat.charclub.ai/api/v1/users/me/characters/?pageSize=20&pageToken=&type=all",
+      "error_when_unauthenticated": {
+        "status": 401,
+        "body": {
+          "message": "No auth token",
+          "error": "Unauthorized",
+          "statusCode": 401
+        }
+      }
+    }
+  },
+  "conversation_history_format": null,
+  "token_location": "Authorization header (inferred from 401 'No auth token'; exact scheme/token name not captured)",
+  "session_id_location": null,
+  "verification_strategy": "capture_only",
+  "confidence": "low",
+  "notes": "Captures only show discovery/browse endpoints (/api/config/, /api/v1/characters:search/, /api/v1/characters:getTrendingCharacters/, /api/v1/characters/{id}/reviews/) and an auth-protected user endpoint (/api/v1/users/me/characters/). No chat send/stream endpoints or websocket traffic captured, so chat replay plan cannot be completed from evidence. /api/config/ advertises CENTRIFUGO_URL=wss://charclub.ahihoapis.com, suggesting realtime chat may use Centrifugo websockets, but this was not observed. Redirect pattern: many /api/... endpoints 308 to trailing-slash variant."
+}
