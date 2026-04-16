@@ -1,0 +1,55 @@
+﻿{
+  "target_url": "https://girlfriend.ai",
+  "network_capture_file": "E:\\nyu homework\\ra\\girlfriend_ai_probe_output_v2\\network_capture.json",
+  "plan_attempt_1_file": "E:\\nyu homework\\ra\\girlfriend_ai_probe_output_v2\\api_plan_attempt_1.json",
+  "verification_attempt_1_file": "E:\\nyu homework\\ra\\girlfriend_ai_probe_output_v2\\verification_attempt_1.json",
+  "final_status": "failed_after_two_attempts",
+  "success_criteria": "Success requires at least one observed calling plan with enough concrete evidence to replay a send step and obtain a parseable reply.",
+  "plan_attempt_2_file": "E:\\nyu homework\\ra\\girlfriend_ai_probe_output_v2\\api_plan_attempt_2.json",
+  "verification_attempt_2_file": "E:\\nyu homework\\ra\\girlfriend_ai_probe_output_v2\\verification_attempt_2.json",
+  "winning_plan": {
+    "site_name": "Girlfriend AI",
+    "base_url": "https://girlfriend.ai",
+    "chat_url": "https://girlfriend.ai/chat/:slug",
+    "transport": "websocket",
+    "create_guest_url": "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=<REDACTED_FIREBASE_KEY>",
+    "login_by_guest_url": null,
+    "get_account_url": "https://prod.girlfriend.ai/api-gateway/api/v2/profile",
+    "create_session_url": "https://girlfriend.ai/v2/api/auth/session",
+    "get_chat_setting_url": null,
+    "get_sessions_url": "https://prod.girlfriend.ai/api-gateway/api/v2/chats",
+    "get_chat_messages_url": null,
+    "send_url": null,
+    "stream_url": null,
+    "websocket_url": "wss://prod.girlfriend.ai/ws?token=<REDACTED_ID_TOKEN>",
+    "graphql_url": null,
+    "bot_id": null,
+    "required_headers": {
+      "authorization": "Bearer {idToken}",
+      "content-type": "application/json",
+      "accept": "application/json"
+    },
+    "payload_hints": {
+      "create_guest": {
+        "returnSecureToken": true
+      },
+      "get_account": {},
+      "get_sessions": {},
+      "create_session": {}
+    },
+    "conversation_history_format": null,
+    "token_location": "authorization header as Bearer token",
+    "session_id_location": null,
+    "verification_strategy": "websocket_only",
+    "confidence": "high",
+    "notes": "The app uses Firebase Authentication for guest user creation and session management. The main chat communication is done over a websocket connection with a JWT token passed as a query parameter. No direct REST API endpoints for sending or streaming chat messages were observed; interaction likely happens via websocket frames. The authorization token is a Firebase ID token used in the Authorization header for REST calls and as a token query parameter for websocket. The app fetches user profile and chat sessions via REST API endpoints under /api-gateway/api/v2/. The create_guest_url is the Firebase signUp endpoint. The create_session_url is a POST to /v2/api/auth/session. No explicit login_by_guest_url or send_url observed. The chat URL pattern includes a slug for the persona. No GraphQL endpoints observed."
+  },
+  "winning_verification": {
+    "ok": false,
+    "steps": [],
+    "errors": [
+      "Plan is incomplete for HTTP replay: send_url or stream_url is missing."
+    ]
+  }
+}
+
